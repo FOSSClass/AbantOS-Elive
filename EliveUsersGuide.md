@@ -526,6 +526,22 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 **dpkg -c _pkg_.deb** - List contents of package file.
 
+**touch _file_** - Create an empty file.
+
+**less _file_** - Display file content one screenful at at time.
+
+**ln -s _target_ _linkname_** - Create a symbolic link from a target to linkname.
+
+**lsof** - List open files and processes using them.
+
+**find _directory_ -name _file_ -print** - Find a file location in a directory.
+
+**gunzip _file_.gz** or **gzip _file_** - Uncompress or compress a .gz file.
+
+**tar cvf _archive_.tar _file1_ _file2_ ...** - Create a compressed archive containing multiple files.
+
+**tar xvf _archive_.tar** - Unpack a .tar file.
+
 ## Whatever (other) commands the class elects would be useful to include in a quick reference
 
 ## Where to get help
