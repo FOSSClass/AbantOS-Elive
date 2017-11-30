@@ -1,7 +1,7 @@
 ---
 title: "AbantOS Linux Users Guide (Elive/Debian)"
 author: [See Credits]
-date: 2017-11-05
+date: 2017-11-29
 subject: "CSCI 2461-70/2482-40 Fall 2017 Final Project"
 tags: [AbantOS, Elive, Linux, Incident Handling, Final Project]
 titlepage: true
@@ -12,7 +12,7 @@ abstract: "AbantOS Linux, based on Elive/Debian with the Englightenment Window M
 
 # Collaborative 2461-70/2482-40 Fall 2017 Final Project
 
-## Back Story: Build Your Own Linux
+## Back Story: Build Your Own Linux. Hello World.
 
 During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
 
