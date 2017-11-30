@@ -212,9 +212,9 @@ GNOME (GNU Network Object Model Environment, pronounced as NOHM) is a graphical 
 
 ## Elive background/history
 
-Started before 2005 as a private experiment in Belgium, Elive was originally a customization of Knoppix, an OS running directly from a Live CD/DVD or USB. 
+Started before 2005 as a private experiment in Belgium, Elive was originally a customization of Knoppix, an OS running directly from a Live CD/DVD or USB.
 
-Due to the unexpected improvements, a public version was then created. 
+Due to the unexpected improvements, a public version was then created.
 
 A few months later, Elive was then publicized for the first time through "/." or Slashdot, a website of social technological news.
 
