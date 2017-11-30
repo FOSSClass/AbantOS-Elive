@@ -796,7 +796,7 @@ sudo apt-get
 
 3. balsa-dbg: get sudo apt-get install balsa-dbg. Mail client from GNOME desktop. Supports both POP3 and IMAP.
 
-4. cython3-dbg: sudo apt-get install cython-dbg. Libraries built against versions of Python configured with pydebug. Allows python configuration.
+4. Python3-dbg: sudo apt-get install cython-dbg. Libraries built against versions of Python configured with pydebug. Allows python configuration.
 
 5. /etcldibbler/client.conf w/new version. DHCPv6 clients: sudo apt-get install dibbler-client
 
