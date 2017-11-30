@@ -607,7 +607,17 @@ Jamal       :    x      :   1001 :   1001   :    jamal Ibrahim   ,    1   ,,   :
     7. **Shell**: This field show, the user has access to the shell mentioned in this field (user 'jamal' has been given access to /bin/bash or simply bash shell).
 
 ## Adding new user accounts to Linux system
-
+1. To create a new account, using the following command 'useradd' or 'adduser'
+   - useradd Sarah
+2. After a new user account was created, you set a password to get access to that user's account.
+   - passwd Sarah
+   - Changing password for user Sarah.
+   - New UIX password:
+   - Retype new UNIX password:
+   - passwd: all authentication tokens updated successfully
+   
+   Source: (https://www.tecmint.com/add-users-in-linux/)   
+   
 # Package Management
 
 Elive is based on Debian, the same distribution flavor as Ubuntu, so we use .deb files for our packages and those files collectively live in a repository.
