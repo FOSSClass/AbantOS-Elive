@@ -696,6 +696,42 @@ How linux works text book.
     a. To kill an existing process use the "kill PID" command
 
     b. To view processes in a tree like format use "pstree | more"
+    
+    7.  Creating, Viewing and Editing files
+
+    a. To use vi, use this command "vi fileName"
+
+    b. To go into insert mode hit "i" or "a"
+
+ ### Installing and Updating software packages
+
+    a. If you want to see what packages you have installed use this "dpkg -l"
+
+    b. To remove a package you don't need use "apt-get remove package_name"
+
+
+
+ ### Network Storage and Management
+
+    a. To mount an NFS show drive use "mount /dev/sdx /mnt/mount_point_name"
+
+    b. To unmount an NFS drive use "umount /dev/sdx /mnt/mount_point_name"
+
+### Service Configuration
+
+     a. To see the status of a running service use this "service service_name status"
+
+     b. To restart a running service use this "service service_name restart"
+
+### Here is a simple shell script that will print something on the screen.
+
+     vi fileName
+
+     #!/bin/bash
+
+     echo "Hello Linux Class!"
+
+     exit file and run with " ./fileName"
 
 ## User Management
 
@@ -871,7 +907,7 @@ Repository & Systems Administration
 
 ### Mohamed Mohamed
 
-folder creation and management 
+folder creation and management | Systems Administration
 
 ### Tyler Cobb
 
