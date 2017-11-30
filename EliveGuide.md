@@ -669,7 +669,7 @@ Source: [Debian package management manual](https://www.debian.org/doc/manuals/de
 In order to understand the components of the Elive repository here are a couple commands
 
 ### Listing Packages
-
+ 
 ```shell
 
 for package in $( dpkg -l | awk '{print $2}' ) ; 
