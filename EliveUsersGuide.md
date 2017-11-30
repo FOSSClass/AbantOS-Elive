@@ -1,7 +1,7 @@
 ---
 title: "AbantOS Linux Users Guide (Elive/Debian)"
 author: [See Credits]
-date: 2017-11-05
+date: 2017-11-29
 subject: "CSCI 2461-70/2482-40 Fall 2017 Final Project"
 tags: [AbantOS, Elive, Linux, Incident Handling, Final Project]
 titlepage: true
@@ -12,7 +12,7 @@ abstract: "AbantOS Linux, based on Elive/Debian with the Englightenment Window M
 
 # Collaborative 2461-70/2482-40 Fall 2017 Final Project
 
-## Back Story: Build Your Own Linux
+## Back Story: Build Your Own Linux.
 
 During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
 
@@ -288,6 +288,7 @@ First things first. BIOS stands for Basic Input Output System referred to as BIO
 # Graphics and Themes
 
 Elive utilizes the Enlightenment Window Manager. Enlightenment utilizes a set of core libraries called (EFL), created specifically for Enlightenment. EFL is being recognized for its forward thinking approaches as users are wanting more from their operating systems UI. 
+Enlightenment library not just to make enlightenment but other application for day to day use. many common featues have been included, such as a terminal emulator, video, player, an image viewer, and even the making of an IDE.
 
 ## Elive Tools
 
@@ -419,9 +420,8 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 #### Screen Unlock Applications
 
 #### Restart Applications
-	AbantOS does not have an provide an spesific command for restarting the application.
 
-
+#### Startup Applications
 
 #### Default Applications
 
@@ -752,7 +752,6 @@ sudo apt-get
 
 9. sudo apt-get install enigma 
 
-Note: the command 'sudo apt-get update' only lists available updates for the packages. Your system should update and upgrade the installed packages automatically if your settings are set to do so. However, if you wish to do it manually, use the command 'sudo apt-get upgrade'.
 
 # Testers & Quality Assurance
 
