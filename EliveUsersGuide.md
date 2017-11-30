@@ -634,7 +634,9 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
 	  2-Boot an OS from
   	    a storage device
 	   -Proceed through until it finds an MBR
+	   a. To go into GRUB config mode, press "e" at the GRUB main screen.
 
+      b. To see the default bootable drive type "echo $root"
 
      2-Bootloader
 	
@@ -664,6 +666,36 @@ Sources
 
 https://www.youtube.com/watch?v=mHB0Z-HUauo
 How linux works text book. 
+
+#### System Logging commands
+
+     a. dmesg (Will list the kernel boot process)
+
+     b. To see the logs for apache go to /var/log/apache2
+     
+     3. Disk Management and File System
+
+     a. After loading a new drive use "ls -l /dev/sd* or hd etc...
+
+     b. To partiton the drive using fdisk use this command as root "fdisk /dev/sd*"
+
+### Managing Users and Groups
+
+    a. To modify an existing user account use "usermod " command
+
+    b. To delete an existing account an all it's files use "userdel -r"
+
+### Linux Networking
+
+    a. To check the routing table use this command "route"
+
+    b. To add a gateway for an interface use this command "route add default gw x.x.x.x inter_name"
+
+### Processes and Job Management
+
+    a. To kill an existing process use the "kill PID" command
+
+    b. To view processes in a tree like format use "pstree | more"
 
 ## User Management
 
@@ -836,6 +868,10 @@ User Management
 ### Mohamed Mohamud
 
 Repository & Systems Administration
+
+### Mohamed Mohamed
+
+folder creation and management 
 
 ### Tyler Cobb
 
