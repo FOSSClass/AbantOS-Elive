@@ -746,7 +746,7 @@ done
 
 ### Listing Package Count
 
-```shell
+
 
 cat /var/lib/apt/lists/repository.elivecd.org_*Packages | grep "^Package:" | wc -l
 
