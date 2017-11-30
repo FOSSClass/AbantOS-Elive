@@ -664,7 +664,7 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
 
 ## User Management
 
-To maintain the privacy of users in the Linux system, they have managed their accounts and supervision as well as tracking the problems they will go through to find the solutions to these problems and will inform users the changes and update. Even if there are one or more user using the system it will always be a challenge for the managing users. I will show you some tools and some tasks assigned to add to the user in the Linux system where you see adding and deleting accounts is an easy process for managing users.
+To maintain the privacy of users in the Linux system, they have managed their accounts and supervision as well as tracking the problems they will go through to find the solutions to these problems. They will inform users of the changes and updates. Even if there are one or more user using the system it will always be a challenge for the managing users. I will show you some tools and some tasks assigned to add to the user in the Linux system where you see adding and deleting accounts is an easy process for managing users.
 
 Before we talk about how to creating and deleting a user account I will talk about the most important text file(/etc/passwd) because is processing the all most and necessary details and information about all users in the Linux system.
 
