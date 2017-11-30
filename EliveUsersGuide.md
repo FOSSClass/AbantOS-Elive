@@ -617,6 +617,53 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
     10. Network Storage and Management (NFS, SMB)
     11. Service Configuration (DHCP, FTP, DNS, SSH, HTTP etc...)    
     12. Linux Shell Scripting
+    Linux Boot Process and Troubleshooting
+
+### Boot process and Troubleshooting
+
+  1. Three major areas
+
+     1-BIOS
+          The first program
+          Runs from ROM
+          OS independent
+	 
+          Bios does the following two main tasks
+	  1-POST
+	   Power on self test
+	  2-Boot an OS from
+  	    a storage device
+	   -Proceed through until it finds an MBR
+
+
+     2-Bootloader
+	
+	-MBR (Master Boot Record)
+	  first sector of the hard drive
+	  Bootloader may reside in the MBR
+	  and or may reside elsewhere
+	-MBR runs the bootloader
+	 -Bootloader(Grub, LILO etc..) loads the OS
+	-May create an initrd image
+          "Initial ramdisk"
+
+
+     3-Kernel
+       Bootloader loads the kernel
+       -/boot/vmlinuz (z at the end means compressed)
+       -Maybe compressed file 
+       -linuxrc 
+         1. linux run command
+       -initrd ramdisk is dismounted
+	
+        -File system is mounted
+	 Kernel runs init.
+
+
+Sources
+
+https://www.youtube.com/watch?v=mHB0Z-HUauo
+How linux works text book. 
 
 ## User Management
 
