@@ -129,7 +129,7 @@ The steps to follow after choosing a package to create and in order to check if 
 
 As a new maintainer, you are encouraged to create simple packages, intermediate complexity packages and high complexity packages. Packaging a high complexity packages requires more knowledge than it takes to build a simple or intermediate packages. 
 
-## Get the program, and try it out.
+## Get the program, and try it out
 
 There are a few steps mentioned on this section to get the package and try it out. 
 
