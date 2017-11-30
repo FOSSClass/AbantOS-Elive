@@ -808,6 +808,23 @@ chmod – the command to modify permissions
 
 ugo+rw – this gives User, Group, and Other read and write access."
 
+###   To get a blend of consents you include the numbers together. 
+
+For instance to get read and execute consents the number you require is 5, to get read and compose authorizations the number is 6 and to get compose and execute consents the number is 3
+
+Keep in mind you have to indicate 3 numbers as a major aspect of the chmod command. The first number is for the owner permissions, the second number is for the gathering authorizations and the last number is for every other person.
+
+For instance to get full authorizations on the proprietor, read and execute consents on the gathering and no authorizations for any other individual sort the following= hmod 750 test 
+
+If you wish to change the group name that owns a folder use the chgrp command.
+
+if you don't have the correct permission to create a group you may need to use sudo to gain extra privileges or switch to an account with valid permissions using the su command.
+
+Now you can change the group for a folder by typing= chgrp accounts <foldername>
+ 
+
+!! ensure you work on doing this on working frameworks like ubuntu to show signs of improvement understanding.
+
 
 ## User Management
 
