@@ -24,7 +24,7 @@ In the African Bantu group Abantos means "Belongs to Human Beings."
 
 AbantOS Linux is based on and created in collaboration with Thanatermesis of the eLiveCD Project. 
 
-The name AbantOS is partially an homage to Ubuntu Linux. That is very true
+The name AbantOS is partially an homage to Ubuntu Linux.
 
 ## Documentation Generation
 
