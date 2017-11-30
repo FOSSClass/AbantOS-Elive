@@ -577,7 +577,26 @@ This file it is open to read only for users, and it is read and writable for roo
 The /etc/passwd file containe only one separate line, limited by a colon (:) for each user account in the system, also it is stored the information for each user using the Linux system. Every time we add new user to the system all details and information for the new user will stored in the same file. 
 
 root /h/jamal  >>> sudo  cat  /etc/passwd
+ bash shell).
 
+## Adding new user accounts to Linux system
+1. To create a new account, using the following command 'useradd' or 'adduser'
+   - useradd Sarah
+2. After a new user account was created, you set a password to get access to that user's account.
+   - passwd Sarah
+   - Changing password for user Sarah.
+   - New UIX password:
+   - Retype new UNIX password:
+   - passwd: all authentication tokens updated successfully
+   
+   To Add a user to many groups, you could use the following steps. For example, the groups that you want to add Sarah to are admis, financeaccount,itdepartment.
+ 1. useradd -G admis,financeaccount,itdepartment Sarah
+ 2. After that, use the id command to verify
+    -id sarah
+    
+ Source: (https://www.tecmint.com/add-users-in-linux/) 
+ 
+ 
 jamal: x:1001:1001: jamal Ibrahim, 1,,:/home/jamal :/bin/bash
 
 tyler: x:1002:1002: tyler, 1,,:/home/tyler :/bin/bash
@@ -604,19 +623,8 @@ Jamal       :    x      :   1001 :   1001   :    jamal Ibrahim   ,    1   ,,   :
     4. **GID field**: Similar to the UID field, this field specifies which group the user belongs to, the group details being present in /etc/group file.
     5. **Comment/Description/User Info field**: This field is the short comment/description/information of the user account.
     6. **User Home Directory**: Every time the user sign in to the system, he is taken to his Home directory, where all his personal files reside. This field provides the absolute path to the user's home directory (/home/jamal in this case).
-    7. **Shell**: This field show, the user has access to the shell mentioned in this field (user 'jamal' has been given access to /bin/bash or simply bash shell).
-
-## Adding new user accounts to Linux system
-1. To create a new account, using the following command 'useradd' or 'adduser'
-   - useradd Sarah
-2. After a new user account was created, you set a password to get access to that user's account.
-   - passwd Sarah
-   - Changing password for user Sarah.
-   - New UIX password:
-   - Retype new UNIX password:
-   - passwd: all authentication tokens updated successfully
-   
-   Source: (https://www.tecmint.com/add-users-in-linux/)   
+    7. **Shell**: This field show, the user has access to the shell mentioned in this field (user 'jamal' has been given access to /bin/bash or simply
+     
    
 # Package Management
 
