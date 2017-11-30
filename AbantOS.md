@@ -646,7 +646,7 @@ An override file can be optionally specified. If no override file exists/, dev/n
 
 Working with repositories may mean either of two different things:
 
-1. You can use a repository with the apt family of programs (apt, apt-get, apt-cache, aptitude) to browse or install packages
+1. You can use a repository with the apt family of programs (apt, apt-get, apt-cache, aptitude) to browse or install packages.
 
 ~~~shell
 echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list && apt-get update
