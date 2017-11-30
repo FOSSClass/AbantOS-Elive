@@ -178,7 +178,7 @@ Ubuntu is proud to be based on Debian. Ubuntu developers want to maintain a heal
 
 Ubuntu has a narrow focus--community based while Debian is Universal.
 
-Ubuntu has its own community government structure somehow inspired by Debian's but different. (MOTU) The masters of the universe were team formed to look after the creation of the universe component.
+Ubuntu has its own community government structure somehow inspired by Debian's but different. (MOTU) The masters of the universe were formed to look after the creation of the universe component.
 
 **Debian for Ubuntu developers**
 
