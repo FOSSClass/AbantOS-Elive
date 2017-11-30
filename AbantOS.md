@@ -602,7 +602,7 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 ## Setup and Maintain 
 
-There are various reasons for building a repository yourself. You might just have a few packages with local modifications that you want to make available to apt, you may want to run a local mirror with those packages used by several machines to save bandwidth, or you build packages yourself and want to test them prior to publication.
+There are various reasons for building a repository yourself. You might just have a few packages with local modifications that you want to make available to apt. You may want to run a local mirror with those packages used by several machines to save bandwidth, or build packages yourself to test them prior to publication.
 
 ## Anatomy of a Repo
 
