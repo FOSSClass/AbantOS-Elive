@@ -155,6 +155,104 @@ The Autotools workflow generally proceeds as:
     1. Upstream runs autoreconf -i -f in the source directory and distributes the generated files along with the source.
     2. The user obtains the distributed source and runs ./configure && make in the source directory to compile the program in an executable source binary.
 
+## Creating a Repository 
+Two types of 
+dpkg-scanpackages
+dpkg-scansource
+dpkg-scanpakages arguments | gzip-9c>Packages.gz
+apt-get update
+apt-get upgrade 
+1. open command line 
+2. enter following commands 
+@repository :+1 :shipit
+
+$ git init
+$ git add
+$ git commit -m "First commit"
+$git remote add origin
+$git remote -v 
+$ git push origin master 
+
+## Creating a Package 
+$ dpkg-buildpackage -us -uc
+$ debian/rules clean 
+$ debian/rules build
+$ fakeroot debian/rules binary
+
+$ apt-get install build-essential dh-make devscripts fakeroot
+$ apt-get install patch diff patchutils
+$apt-get install linda 
+
+
+
+## Source Packages for EFL 
+-[] efl-dbp
+-[] efl-doc
+-[] libecore-dev
+
+## Install EFL 
+#create a directory
+$mkdir enlight
+$cd enlight
+#make sure all Dependencies are installed
+$ sudo apt install
+##EFL build script 
+
+set -e
+# Target directory
+PREFIX="/usr/local"
+ 
+# List of the needed packages
+# To adapt to your needs
+PROJECTS="efl enlightenment"
+ 
+# Download url
+SITE=" https://git.enlightenment.org/core/"
+OPT="--prefix=$PREFIX"
+ 
+PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig:$PKG_CONFIG_PATH"
+PATH="$PREFIX/bin:$PATH"
+LD_LIBRARY_PATH="$PREFIX/lib:$LD_LIBRARY_PATH"
+LOG="installe.log"
+rm -f $LOG      # Delete precedent log file
+touch $LOG      # Create a log file
+date >> $LOG    # Add current date
+ 
+# Download and compile each module
+for PROJ in $PROJECTS; do
+    # Cloning
+    if [ ! -d $PROJ ]; then
+        git clone $SITE$PROJ.git $PROJ
+    fi
+    # Go building and installing
+    cd $PROJ*
+    make clean distclean || true
+    ./autogen.sh $OPT
+    make
+    sudo make install
+    cd ..
+    sudo ldconfig
+    echo $PROJ" is installed" >> $LOG
+done
+ 
+#Optionnal Terminology
+git clone https://git.enlightenment.org/apps/terminology.git
+cd terminology
+./autogen.sh $OPT
+make
+sudo make all install
+cd ..
+sudo ldconfig
+## Run-time requirements
+apt install dbus-x11 xinit xorg
+
+
+
+
+
+
+
+
 ## Linux Distributions
 
 ### Ubuntu and Debian: How is Ubuntu related to Linux and Debian?
