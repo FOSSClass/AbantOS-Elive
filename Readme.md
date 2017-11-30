@@ -1,7 +1,7 @@
 ---
 title: "AbantOS Linux Users Guide (Elive/Debian)"
 author: [See Credits]
-date: 2017-11-29
+date: 2017-11-05
 subject: "CSCI 2461-70/2482-40 Fall 2017 Final Project"
 tags: [AbantOS, Elive, Linux, Incident Handling, Final Project]
 titlepage: true
@@ -12,7 +12,7 @@ abstract: "AbantOS Linux, based on Elive/Debian with the Englightenment Window M
 
 # Collaborative 2461-70/2482-40 Fall 2017 Final Project
 
-## Back Story: Build Your Own Linux.
+## Back Story: Build Your Own Linux
 
 During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
 
@@ -172,7 +172,7 @@ Ubuntu is an Open-source project that develops and maintains a cross-platform, o
 
 **How does Debian and Ubuntu fit together?** 
 
-Ubuntu is proud to be based off of Debian. Ubuntu developers want to maintain a healthy and collaborative relationship with Debian developers. Ubuntu has brought new users and developers to the GNU/Linux community
+Ubuntu is proud to be based on Debian. Ubuntu developers want to maintain a healthy and collaborative relationship with Debian developers. Ubuntu has brought new users and developers to the GNU/Linux community
 
 **How does Ubuntu differ from Debian?**
 
@@ -419,9 +419,8 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 #### Screen Unlock Applications
 
 #### Restart Applications
-	AbantOS does not have an provide an spesific command for restarting the application.
 
-
+#### Startup Applications
 
 #### Default Applications
 
@@ -493,63 +492,9 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 # Command references
 
-**cat _files_** - Prints files to screen.
-
-**cd _directory_** - Change to particular directory.
-
-**pwd** - Prints the current working directory.
-
-**cp _files_ _dest_** - Copies files and directories.
-
-**echo _string_** - Echoes a string to screen.
-
-**ls _files_** - List files.
-
-**mkdir _directory-name_** - Create directories.
-
-**mv _file1 _file2_** - Move/rename files.
-
-**rm _files_** - Remove files.
-
-**grep _searchstring_ _files_** - Find a particular search-string in files.
-
-**ps _options_** - Show current processes.
-
-**kill _[-9]_ _PID_** - Send signal to terminate a particular process (process ID).
-
-**su - _[username]_** - Switch user (e.g., become root).
-
-**sudo _commannd_** - Execute a partcular command as root.
-
-**dpkg -l _names_** - List packages.
-
-**dpkg -I _pkg_.deb** - Show package information.
-
-**dpkg -c _pkg_.deb** - List contents of package file.
-
-**touch _file_** - Create an empty file.
-
-**less _file_** - Display file content one screenful at at time.
-
-**ln -s _target_ _linkname_** - Create a symbolic link from a target to linkname.
-
-**lsof** - List open files and processes using them.
-
-**find _directory_ -name _file_ -print** - Find a file location in a directory.
-
-**gunzip _file_.gz** or **gzip _file_** - Uncompress or compress a .gz file.
-
-**tar cvf _archive_.tar _file1_ _file2_ ...** - Create a compressed archive containing multiple files.
-
-**tar xvf _archive_.tar** - Unpack a .tar file.
-
-## Whatever (other) commands the class elects would be useful to include in a quick reference
+## Whatever commands the class elects would be useful to include in a quick reference
 
 ## Where to get help
-
-**man _page_ or man** - Read online help for a particular, or every, command.
-
-**_command_ --help** - Brief help for a particular command.
 
 ## From basic to advanced
 
@@ -662,7 +607,17 @@ Jamal       :    x      :   1001 :   1001   :    jamal Ibrahim   ,    1   ,,   :
     7. **Shell**: This field show, the user has access to the shell mentioned in this field (user 'jamal' has been given access to /bin/bash or simply bash shell).
 
 ## Adding new user accounts to Linux system
-
+1. To create a new account, using the following command 'useradd' or 'adduser'
+   - useradd Sarah
+2. After a new user account was created, you set a password to get access to that user's account.
+   - passwd Sarah
+   - Changing password for user Sarah.
+   - New UIX password:
+   - Retype new UNIX password:
+   - passwd: all authentication tokens updated successfully
+   
+   Source: (https://www.tecmint.com/add-users-in-linux/)   
+   
 # Package Management
 
 Elive is based on Debian, the same distribution flavor as Ubuntu, so we use .deb files for our packages and those files collectively live in a repository.
