@@ -9,7 +9,7 @@ titlpage-color: "D8DE2C"
 titlepage-text-color: "5F5F5F"
 abstract: "AbantOS Linux, based on Elive/Debian with the Englightenment Window Manager/GUI. Created by and in support of the Fall 2017 Saint Paul College CSCI 2461-70 Computer Networking 3 - Linux, and 2482-40 Incident Handling & Disaster Recovery classes. "
 ...
-
+ 
 # Collaborative 2461-70/2482-40 Fall 2017 Final Project
 
 ## Back Story: Build Your Own Linux
