@@ -262,22 +262,36 @@ First things first. BIOS stands for Basic Input Output System referred to as BIO
 
 ### Booting (Mac) from an external USB device
 
-* APPLE iOS MAC USER?
-* If you are using an iOS - Apple Mac, and is having some issues geting your external flashdrive USB to work, try some of these things.
-* If your external flash drive USB contains a usable operating system or an OS X installer, you can select it at boot time using OS X’S built-in feature called Startup Manager, which can be invoked via a simple keystroke.
-* Power on your Mac by pressing the power button or restart it if it’s already on.
-* Press and hold the Option (⌥) key immediately when you heari the startup chime. Release the key after Startup Manager appears. Startup Manager will scan and list connected drives and volumes that can be booted from.
-* Select the volume you want to use by using the mouse or left and right arrow keys on the keyboard.
+ APPLE iOS MAC USER
+
+ If you are using an iOS - APPLE Mac, and are having some issues geting your external flashdrive USB to work, You can try some of these steps.
+ 
+ You can boot using an external flash drive USB using the built-in feature called Startup Manager
+ 
+* Begin by restarting your computer by clicking the restart option with the mouse or by simply pressing the power button.
+
+* Right when the computer begins to boot up and you hear the booting sound, (before the the logo appears), immediately press and hold the Option (⌥) key, until the Startup Manager appears.
+
+Startup Manager will scan and list connected drives and volumes that can be booted from.
+
+* Select the volume you want by using the mouse or arrow keys on the keyboard.
+
 * Double-click or press the Return key to boot your Mac from the selected volume.
- You should now be able to boot from external an external flash drive USB
 
-If you'd like to use system preference, with the computer on:
-* Open the System Preferences application in the Dock.
-* Now click the Startup Disk pane. You will be presented with various disk icons.
-* Select the system you would like to use to start your computer up.
-* Now click the Restart button to start up your Mac using the chosen volume.
+ You should now be able to boot from external flash drive USB
 
-Note: If there are several USB storage devices connected to your Mac, Startup Manager will only list the ones containing bootable volumes.
+
+Another way to boot your external flash drive USB while the computer is ON, is to use what is called System Preference.
+
+* Begin by searching and opening the the System Preferences application in the Dock.
+
+* click the Startup Disk pane and you will see the different disk icons available.
+
+* Select the appropriate device or system you would like to use to start the computer up.
+
+* Now click the Restart button or press the power button to start up your Mac using the chosen volume.
+
+ Startup Manager will only list USB's that contain bootable volumes.
 
 **References**
 "[How to start up Mac from bootable media](http://www.idownloadblog.com/2015/09/14/how-to-start-up-mac-from-bootable-media/)"
