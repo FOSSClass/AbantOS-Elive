@@ -14,7 +14,7 @@ abstract: "AbantOS Linux, based on Elive/Debian with the Englightenment Window M
 
 ## Back Story: Build Your Own Linux.
 
-During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSCI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
+During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
 
 This document serves as a Users Guide to the 2482-40 and 2461-70 classes and associated tools, techniques and processes. 
 
@@ -56,7 +56,7 @@ All contributors hold their original Copyright 2017.
 
 ## Programs Needed for Development
 
-Though many if not all packages necessary for development should come installed with the base Debian installation, itos good to check they are present with *aptitude show package* or *dpkg -s package*. The most important package to make sure is installed is *build-essential*. It should pull in other packages that are necessary for the build environment if they are not already installed.
+Though many if not all packages necessary for development should come installed with the base Debian installation, itos good to check they are present with *aptitude show package* or *dpkg -s package*. The most important package to make sure is installed is *build-essential*. It should pull in other packages that are necessary for the build environment if theyore not already installed.
 
 Other packages are some measure of helpful and/or necessary for building particular packages down the road. Some are particular compilers for specific languages (i.e. *gfortran* or *gpc*) or packages for scripting languages themselves (i.e. *perl* and *python*). Others make parts of the process easier (such as the *debhelper/dh-make* packages or the *fakeroot* tool) or allow checking for errors after the build (*lintian*). The full range of additional build packages listed should be installed and understood before proceeding.
 
@@ -140,7 +140,7 @@ There are a few steps mentioned on this section to get the package and try it ou
 ## Simple build systems
 
     1. Simple programs comes with a Makefile which can be compiled by invoking make. 
-    2. Compile and run to make sure your program works so it would not break something else while its installing or running. 
+    2. Compile and run to make sure your program works so it wonot break something else while its installing or running. 
     3. You can run make clean to clean up the build directory. 
     4. You can use the make uninstall to remove all the installed files.
 
@@ -178,7 +178,7 @@ Ubuntu is proud to be based on Debian. Ubuntu developers want to maintain a heal
 
 Ubuntu has a narrow focus--community based while Debian is Universal.
 
-Ubuntu has its own community government structure somehow inspired by Debian's but different. (MOTU) The masters of the universe were formed to look after the creation of the universe component.
+Ubuntu has its own community government structure somehow inspired by Debian's but different. (MOTU) The masters of the universe were team formed to look after the creation of the universe component.
 
 **Debian for Ubuntu developers**
 
@@ -190,7 +190,7 @@ Ubuntu is Debian based.
 *Edubuntu*
 
 A complete Linux based operating System targeted for primary and secondary education. It is freely available with community based support.
-The Edubuntu community is built on the ideas enshrined in the Edubuntu manifesto: that software, especially for education should be available free of charge and that software tools should be usable by people in their own language and despite any disabilities. [14]
+The Edubuntu community is built on the ideas enshrined in the Edubuntu manifesto: that software, especially for education should be available free of charge and that software tools should be usable by people in their local language and despite any disabilities. [14]
 
 *Kubuntu*
 
@@ -204,19 +204,13 @@ An official derivative of Ubuntu Linux using ICDE instead of the GNOME or unity 
 
 ### GNOME
 
-GNOME (GNU Network Object Model Environment, pronounced as NOHM) is a graphical user interface (GUI) and it's set in the computer Desktop applications for users in the Linux computer operating system. Its intended to make a Linux operating system easy to use for non-programmers and generally corresponds to the windows desktop interface and its most common applications. (Wikipedia)
+GNOME (GNU Network Object Model Environment, pronounced as NOHM) is a graphical user interface (GUI) and set of computer Desktop applications for users of the Linux computer operating system. Its intended to make a Linux operating system easy to use for non-programmers and generally corresponds to the windows desktop interface and its most common applications. (Wikipedia)
 
 ### Englightnment 
 
 **AbantOS** uses the Enlightenment Window Manager
 
 ## Elive background/history
-
-Started before 2005 as a private experiment in Belgium, Elive was originally a customization of Knoppix, an OS running directly from a Live CD/DVD or USB. 
-
-Due to the unexpected improvements, a public version was then created. 
-
-A few months later, Elive was then publicized for the first time through "/." or Slashdot, a website of social technological news.
 	
 ## Elive purpose/objectives
 
@@ -231,33 +225,6 @@ A few months later, Elive was then publicized for the first time through "/." or
 ```
 
 # Installation of Elive
-
-*Installing Elive on a USB 
-1. Go to Elivecd.org
-2. download elivecd 
-3. Plug in the USB
-4. Use Etcher to flash elive on a designated USB
-5. Then boot elive from USB 
-6. Hit F10 or F12 to boot 
-
-Problems encounterd during the installation 
-1.   Booting it from the USB, it requires to disable some features in bios before booting for the usb
-2.  Different operating systems have different key commands while others use f12 to get into bios, others use f10 and f2 so take note of which key combination used by your operating system. 
-3. Also make sure you have a usb with a fast writting speed like sandisk 32 gb.
-
-*Navigating on Elive operating system 
-4. To adjust the volume  
-5. click on the desktop 
-6. place mouse pointer on applications
-7. select sound 
-8. click on volume control
-9. adjust the volume as required
-
-Recommendations: its better to have volume on the taskbar 
-* How to turn down the PC when working on Elive  
-10. click on the desk top 
-11. select system 
-12. click on power off from the contextual menu that appear
 
 ## Downloading Elive from [EliveCD.org](www.elivecd.org)
 
@@ -292,7 +259,6 @@ First things first. BIOS stands for Basic Input Output System referred to as BIO
 ### What is a Master Boot Record?
 
 ### What is a GUID partition type? 
-It is a new disk architecture that make is more larger on the older Master Boot Record (MBR) partitioning scheme.
 
 ### Booting (Mac) from an external USB device
 
@@ -453,8 +419,9 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 #### Screen Unlock Applications
 
 #### Restart Applications
+	AbantOS does not have an provide an spesific command for restarting the application.
 
-#### Startup Applications
+
 
 #### Default Applications
 
@@ -579,6 +546,7 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 ## Whatever (other) commands the class elects would be useful to include in a quick reference
 
 ## Where to get help
+
 **man _page_ or man** - Read online help for a particular, or every, command.
 
 **_command_ --help** - Brief help for a particular command.
@@ -650,53 +618,6 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
     10. Network Storage and Management (NFS, SMB)
     11. Service Configuration (DHCP, FTP, DNS, SSH, HTTP etc...)    
     12. Linux Shell Scripting
-    Linux Boot Process and Troubleshooting
-
-### Boot process and Troubleshooting
-
-  1. Three major areas
-
-     1-BIOS
-          The first program
-          Runs from ROM
-          OS independent
-	 
-          Bios does the following two main tasks
-	  1-POST
-	   Power on self test
-	  2-Boot an OS from
-  	    a storage device
-	   -Proceed through until it finds an MBR
-
-
-     2-Bootloader
-	
-	-MBR (Master Boot Record)
-	  first sector of the hard drive
-	  Bootloader may reside in the MBR
-	  and or may reside elsewhere
-	-MBR runs the bootloader
-	 -Bootloader(Grub, LILO etc..) loads the OS
-	-May create an initrd image
-          "Initial ramdisk"
-
-
-     3-Kernel
-       Bootloader loads the kernel
-       -/boot/vmlinuz (z at the end means compressed)
-       -Maybe compressed file 
-       -linuxrc 
-         1. linux run command
-       -initrd ramdisk is dismounted
-	
-        -File system is mounted
-	 Kernel runs init.
-
-
-Sources
-
-https://www.youtube.com/watch?v=mHB0Z-HUauo
-How linux works text book. 
 
 ## User Management
 
@@ -799,7 +720,7 @@ done
 
 ### Listing Package Count
 
-
+```shell
 
 cat /var/lib/apt/lists/repository.elivecd.org_*Packages | grep "^Package:" | wc -l
 
