@@ -172,7 +172,7 @@ Ubuntu is an Open-source project that develops and maintains a cross-platform, o
 
 **How does Debian and Ubuntu fit together?** 
 
-Ubuntu is proud to be based on Debian. Ubuntu developers want to maintain a healthy and collaborative relationship with Debian developers. Ubuntu has brought new users and developers to the GNU/Linux community
+Ubuntu is proud to be based off of Debian. Ubuntu developers want to maintain a healthy and collaborative relationship with Debian developers. Ubuntu has brought new users and developers to the GNU/Linux community
 
 **How does Ubuntu differ from Debian?**
 
@@ -225,33 +225,6 @@ GNOME (GNU Network Object Model Environment, pronounced as NOHM) is a graphical 
 ```
 
 # Installation of Elive
-
-*Installing Elive on a USB 
-1. Go to Elivecd.org
-2. download elivecd 
-3. Plug in the USB
-4. Use Etcher to flash elive on a designated USB
-5. Then boot elive from USB 
-6. Hit F10 or F12 to boot 
-
-Problems encounterd during the installation 
-1.   Booting it from the USB, it requires to disable some features in bios before booting for the usb
-2.  Different operating systems have different key commands while others use f12 to get into bios, others use f10 and f2 so take note of which key combination used by your operating system. 
-3. Also make sure you have a usb with a fast writting speed like sandisk 32 gb.
-
-*Navigating on Elive operating system 
-4. To adjust the volume  
-5. click on the desktop 
-6. place mouse pointer on applications
-7. select sound 
-8. click on volume control
-9. adjust the volume as required
-
-Recommendations: its better to have volume on the taskbar 
-* How to turn down the PC when working on Elive  
-10. click on the desk top 
-11. select system 
-12. click on power off from the contextual menu that appear
 
 ## Downloading Elive from [EliveCD.org](www.elivecd.org)
 
@@ -746,7 +719,7 @@ done
 
 ### Listing Package Count
 
-
+```shell
 
 cat /var/lib/apt/lists/repository.elivecd.org_*Packages | grep "^Package:" | wc -l
 
