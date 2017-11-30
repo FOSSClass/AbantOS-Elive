@@ -270,13 +270,13 @@ Ubuntu is an Open-source project that develops and maintains a cross-platform, o
 
 **How does Debian and Ubuntu fit together?** 
 
-Ubuntu is proud to be based on Debian. Ubuntu developers want to maintain a healthy and collaborative relationship with Debian developers. Ubuntu has brought new users and developers to the GNU/Linux community
+Ubuntu is proud to be based on Debian. Ubuntu developers want to maintain a healthy and collaborative relationship with Debian developers. Ubuntu has brought new users and developers to the GNU/Linux community.
 
 **How does Ubuntu differ from Debian?**
 
 Ubuntu has a narrow focus--community based while Debian is Universal.
 
-Ubuntu has its own community government structure somehow inspired by Debian's but different. (MOTU) The masters of the universe were team formed to look after the creation of the universe component.
+Ubuntu has its own community government structure somehow inspired by Debian's but different. (MOTU) The masters of the universe were form to team up and look after the creation of the universe component.
 
 **Debian for Ubuntu developers**
 
