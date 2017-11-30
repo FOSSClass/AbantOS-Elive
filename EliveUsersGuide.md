@@ -172,7 +172,7 @@ Ubuntu is an Open-source project that develops and maintains a cross-platform, o
 
 **How does Debian and Ubuntu fit together?** 
 
-Ubuntu is proud to be based on Debian. Ubuntu developers want to maintain a healthy and collaborative relationship with Debian developers. Ubuntu has brought new users and developers to the GNU/Linux community
+Ubuntu is proud to be based off of Debian. Ubuntu developers want to maintain a healthy and collaborative relationship with Debian developers. Ubuntu has brought new users and developers to the GNU/Linux community
 
 **How does Ubuntu differ from Debian?**
 
