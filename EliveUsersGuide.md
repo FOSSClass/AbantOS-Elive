@@ -733,6 +733,58 @@ How linux works text book.
 
      exit file and run with " ./fileName"
      
+    This is our work for week14, We've also created a branch on github and uploaded this file. 
+
+1. Boot process and Troubleshooting
+The command to get into grub after boot up is "grub"
+And use "quit" to get out of grub
+
+2. System Logging
+
+3. Disk Management and File System Creation
+
+To modify or add a new partition use "parted /dev/sdx" command
+To display existing partitions within a disk use "print"
+
+4. Managing Linux Users and Groups
+
+to modify an existing group use "groupmod"
+to display a specific user's group and uid use "id username"
+
+5. Linux Networking (setting up networking and config)
+"ip addr" is another command that display the info of interfaces
+To display network connections use "netstat -r"
+
+6. Process and Job Management
+
+7. Creating, Viewing and Editing Text Files
+To quit vi without saving your changes type escape ":q!"
+To cut a like in a file using vi, use "y" from edit mode
+
+8. Installing and Updating Software Packages
+To compile a source file and install
+./configure (from it's config direcotory where the configure file is)
+make
+make install
+
+9. Scheduling and Automating Future tasks
+crontab file is one of the tools used to auto make future tasks. 
+to get into the crontab file use this "crontab -e"
+to list any pending jobs use "crontab -l"
+
+10. Network Storage and Management (NFS, SMB)
+
+Here is a mount command for nfs
+mount -o rw serverName:/dir /mnt/dir
+
+11. Service Configuration (DHCP, FTP, DNS, SSH, HTTP etc...) 
+to install ftp and start it use the following commands. 
+sudo apt-get install vsftpd
+sudo service vsftpd start
+
+12. Linux Shell Scripting
+     
+   
    ### Command line: File permissions The commands for modifying file permissions and ownership are:
 
 chmod – change permissions
