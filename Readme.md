@@ -560,13 +560,7 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
     7. Creating, Viewing and Editing Text Files (Vi)
     8. Installing and Updating Software Packages
     9. Scheduling and Automating Future tasks
-    10. Network Storage and Management (NFS, SMB)
-    11. Service Configuration (DHCP, FTP, DNS, SSH, HTTP etc...)    
-    12. Linux Shell Scripting
-
-## User Management
-
-To maintain the privacy of users of the Linux system and manage their accounts and supervision, as well as track the problems they will go through, find the solutions to these problems, and inform users the changes, update, and upgrade the system. Even if there is a one user using the system it was always a challenge for the managing users. I will show you some tools and some tasks assigned to add the user to Linux system where you see adding and deleting accounts is an easy process for managing users.
+    10. Network Storage and Management (NFgo through, find the solutions to these problems, and inform users the changes, update, and upgrade the system. Even if there is a one user using the system it was always a challenge for the managing users. I will show you some tools and some tasks assigned to add the user to Linux system where you see adding and deleting accounts is an easy process for managing users.
 
 Before we talk about how to creating and deleting a user account I will talk about the most important text file(/etc/passwd) because is processing the all most and necessary details and information about all users in the Linux system.
 
@@ -580,21 +574,13 @@ root /h/jamal  >>> sudo  cat  /etc/passwd
  bash shell).
 
 ## Adding new user accounts to Linux system
-1. To create a new account, using the following command 'useradd' or 'adduser'
-   - useradd Sarah
-2. After a new user account was created, you set a password to get access to that user's account.
-   - passwd Sarah
-   - Changing password for user Sarah.
-   - New UIX password:
-   - Retype new UNIX password:
-   - passwd: all authentication tokens updated successfully
-   
-   To Add a user to many groups, you could use the following steps. For example, the groups that you want to add Sarah to are admis, financeaccount,itdepartment.
- 1. useradd -G admis,financeaccount,itdepartment Sarah
- 2. After that, use the id command to verify
-    -id sarah
-    
- Source: (https://www.tecmint.com/add-users-in-linux/) 
+ S, SMB)
+    11. Service Configuration (DHCP, FTP, DNS, SSH, HTTP etc...)    
+    12. Linux Shell Scripting
+
+## User Management
+
+To maintain the privacy of users of the Linux system and manage their accounts and supervision, as well as track the problems they will 
  
  
 jamal: x:1001:1001: jamal Ibrahim, 1,,:/home/jamal :/bin/bash
