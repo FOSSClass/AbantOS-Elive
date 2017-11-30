@@ -292,6 +292,7 @@ First things first. BIOS stands for Basic Input Output System referred to as BIO
 ### What is a Master Boot Record?
 
 ### What is a GUID partition type? 
+It is a new disk architecture that make is more larger on the older Master Boot Record (MBR) partitioning scheme.
 
 ### Booting (Mac) from an external USB device
 
@@ -578,7 +579,6 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 ## Whatever (other) commands the class elects would be useful to include in a quick reference
 
 ## Where to get help
-
 **man _page_ or man** - Read online help for a particular, or every, command.
 
 **_command_ --help** - Brief help for a particular command.
