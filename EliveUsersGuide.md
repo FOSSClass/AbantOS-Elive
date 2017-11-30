@@ -14,7 +14,7 @@ abstract: "AbantOS Linux, based on Elive/Debian with the Englightenment Window M
 
 ## Back Story: Build Your Own Linux.
 
-During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
+During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSCI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
 
 This document serves as a Users Guide to the 2482-40 and 2461-70 classes and associated tools, techniques and processes. 
 
@@ -56,7 +56,7 @@ All contributors hold their original Copyright 2017.
 
 ## Programs Needed for Development
 
-Though many if not all packages necessary for development should come installed with the base Debian installation, itos good to check they are present with *aptitude show package* or *dpkg -s package*. The most important package to make sure is installed is *build-essential*. It should pull in other packages that are necessary for the build environment if theyore not already installed.
+Though many if not all packages necessary for development should come installed with the base Debian installation, itos good to check they are present with *aptitude show package* or *dpkg -s package*. The most important package to make sure is installed is *build-essential*. It should pull in other packages that are necessary for the build environment if they are not already installed.
 
 Other packages are some measure of helpful and/or necessary for building particular packages down the road. Some are particular compilers for specific languages (i.e. *gfortran* or *gpc*) or packages for scripting languages themselves (i.e. *perl* and *python*). Others make parts of the process easier (such as the *debhelper/dh-make* packages or the *fakeroot* tool) or allow checking for errors after the build (*lintian*). The full range of additional build packages listed should be installed and understood before proceeding.
 
@@ -140,7 +140,7 @@ There are a few steps mentioned on this section to get the package and try it ou
 ## Simple build systems
 
     1. Simple programs comes with a Makefile which can be compiled by invoking make. 
-    2. Compile and run to make sure your program works so it wonot break something else while its installing or running. 
+    2. Compile and run to make sure your program works so it would not break something else while its installing or running. 
     3. You can run make clean to clean up the build directory. 
     4. You can use the make uninstall to remove all the installed files.
 
