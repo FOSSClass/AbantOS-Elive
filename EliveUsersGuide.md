@@ -190,7 +190,7 @@ Ubuntu is Debian based.
 *Edubuntu*
 
 A complete Linux based operating System targeted for primary and secondary education. It is freely available with community based support.
-The Edubuntu community is built on the ideas enshrined in the Edubuntu manifesto: that software, especially for education should be available free of charge and that software tools should be usable by people in their local language and despite any disabilities. [14]
+The Edubuntu community is built on the ideas enshrined in the Edubuntu manifesto: that software, especially for education should be available free of charge and that software tools should be usable by people in their own language and despite any disabilities. [14]
 
 *Kubuntu*
 
