@@ -553,6 +553,7 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 ## From basic to advanced
 
 # Repository 
+Software Repository is a database for programming application installation and software upgrades. It is used mostly along with Linux based distributors. Because Linux doesn’t use or download applications like Window distributors; it uses Software Repository compiled applications that is for specific systems. Depending on whether the program is demanding, the repository language or manager will obey and program it to the users’ satisfaction. These sorts of systems are designed as malfunction free allowing the user’ to use the program freely without worrying about the system malfunctioning.
 
 ## Creating Repositories
 
