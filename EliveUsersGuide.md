@@ -204,7 +204,7 @@ An official derivative of Ubuntu Linux using ICDE instead of the GNOME or unity 
 
 ### GNOME
 
-GNOME (GNU Network Object Model Environment, pronounced as NOHM) is a graphical user interface (GUI) and set of computer Desktop applications for users of the Linux computer operating system. Its intended to make a Linux operating system easy to use for non-programmers and generally corresponds to the windows desktop interface and its most common applications. (Wikipedia)
+GNOME (GNU Network Object Model Environment, pronounced as NOHM) is a graphical user interface (GUI) and it's set in the computer Desktop applications for users in the Linux computer operating system. Its intended to make a Linux operating system easy to use for non-programmers and generally corresponds to the windows desktop interface and its most common applications. (Wikipedia)
 
 ### Englightnment 
 
