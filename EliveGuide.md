@@ -20,7 +20,7 @@ This document serves as a Users Guide to the 2482-40 and 2461-70 classes and ass
 
 ## Project Name: AbantOS Linux
 
-In the African Bantu group Abantos means "Belongs to Human Beings." 
+In the African Bantus belong to Bantu group, 'Abanto' in my dilect laguage 'kisii' Abantos means "Belongs to Human Beings/man"
 
 AbantOS Linux is based on and created in collaboration with Thanatermesis of the eLiveCD Project. 
 
