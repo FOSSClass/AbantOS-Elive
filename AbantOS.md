@@ -685,7 +685,7 @@ This file it is open to read only for users, and it is read and writable for roo
 
 ### /etc/passwd file
 
-The /etc/passwd file containe only one separate line, limited by a colon (:) for each user account in the system, also it is stored the information for each user using the Linux system. Every time we add new user to the system all details and information for the new user will stored in the same file. 
+The /etc/passwd file contains only one separate line, limited by a colon (:) for each user account in the system, also it is stored the information for each user using the Linux system. Every time we add new user to the system all details and information for the new user will stored in the same file. 
 
 root /h/jamal  >>> sudo  cat  /etc/passwd
 
