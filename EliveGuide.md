@@ -292,6 +292,8 @@ Another way to boot your external flash drive USB while the computer is ON, is t
 * Now click the Restart button or press the power button to start up your Mac using the chosen volume.
 
  Startup Manager will only list USB's that contain bootable volumes.
+ 
+ You should now be able to boot the external flash drive USB.
 
 **References**
 "[How to start up Mac from bootable media](http://www.idownloadblog.com/2015/09/14/how-to-start-up-mac-from-bootable-media/)"
@@ -337,6 +339,8 @@ You'll want to look for anything regarding UEFI/Legacy Boot.
 
 You should now be able to boot via external flash drive USB.
 
+**References**
+(https://www.pcworld.com/article/3057176/hardware/the-hidden-challenges-of-booting-from-a-usb-flash-drive.html)
 
 ## Installing on hardware (or Live sessions w/ Persistence)
 
