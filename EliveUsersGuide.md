@@ -732,6 +732,30 @@ How linux works text book.
      echo "Hello Linux Class!"
 
      exit file and run with " ./fileName"
+     
+   ### Command line: File permissions The commands for modifying file permissions and ownership are:
+
+chmod – change permissions
+
+chown – change ownership.
+
+remember the only user that can actually modify the permissions or ownership of a file is either the current owner.
+or the root user.
+
+you can change the permissions of the folder to give them access. One way to do this would be to issue the command: 
+
+-sudo chmod -R ugo+rw /DATA/SHARE
+
+to break it down:
+
+" sudo – this is used to gain admin rights for the command on any system that makes use of sudo (otherwise you'd have to 'su' to root and run the above command without 'sudo')
+
+chmod – the command to modify permissions
+
+-R – this modifies the permission of the parent folder and the child objects within
+
+ugo+rw – this gives User, Group, and Other read and write access."
+
 
 ## User Management
 
