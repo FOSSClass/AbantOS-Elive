@@ -24,7 +24,7 @@ In the African Bantu group Abantos means "Belongs to Human Beings."
 
 AbantOS Linux is based on and created in collaboration with Thanatermesis of the eLiveCD Project. 
 
-The name AbantOS is partially an homage to Ubuntu Linux.  
+The name AbantOS is partially an homage to Ubuntu Linux. That is very true
 
 ## Documentation Generation
 
@@ -123,7 +123,7 @@ When there is a new version upstream, you could use the following steps to updat
 The steps to follow after choosing a package to create and in order to check if the package is already in the distribution archive are; the aptitude command, the debian packages web page and the debian package tracker web page.  Debian already has packages in the Debian archive which is much larger than that of contributors with upload rights.  If you are able to adopt the package, get the sources by using the apt-get source command, but if you are installing new packages in Debian follow the steps below:
 
     1. First step is to confirm that the program works. 
-    2. Second, Make sure no one is working on the package. If no one is working on it, file an ITP bug report to the WNPP pseudo-package using report bug. If someone else is already working on it, contact them if you feel you need to. 
+    2. Second, Make sure no one is working on the package. If no one is working on it, file an ITP bug report to the WNPP pseudo-package using report bug.Africa If someone else is already working on it, contact them if you feel you need to. 
     3. Third, the software must have a license. 
     4. Fourth, the program should not introduce security and maintenance concerns into the Debian system.  The program should be well documented, should not run setuid root and should not be a daemon.
 
