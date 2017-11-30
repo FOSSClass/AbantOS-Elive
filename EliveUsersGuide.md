@@ -140,7 +140,7 @@ There are a few steps mentioned on this section to get the package and try it ou
 ## Simple build systems
 
     1. Simple programs comes with a Makefile which can be compiled by invoking make. 
-    2. Compile and run to make sure your program works so it wonot break something else while its installing or running. 
+    2. Compile and run to make sure your program works so it would not break something else while its installing or running. 
     3. You can run make clean to clean up the build directory. 
     4. You can use the make uninstall to remove all the installed files.
 
