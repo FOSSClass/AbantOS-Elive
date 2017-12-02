@@ -399,7 +399,7 @@ GUID Partition Table disks can grow to a very large size. In July 2001, the Micr
 
 # Graphics and Themes
 
-Elive utilizes the Enlightenment Window Manager. Enlightenment utilizes a set of core libraries called (EFL), created specifically for Enlightenment. EFL is being recognized for its forward thinking approaches as users are wanting more from their operating systems UI. 
+Elive utilizes the Enlightenment Window Manager. Enlightenment utilizes a set of core libraries called (EFL), created specifically for Enlightenment. EFL is being recognized for its forward thinking approaches as users are wanting more from their operating systems UI. Elive has its own repository with more than 400 elive specific packages some are just rebuilt with minor changes, like tweaking their default configuration files or including skin,etc. Elive desktop environment is based on enlightenment. Enlightenment x11 is cureently transitioning to wayland. EElive is the future of graphical display layers on linux. Enlightenment Library not just to make Enlightenment but other application for day to day use.Many common features have been included, such as a terminal emulator, video play, an image viewer, and even the making of an IDE.
 
 ## Elive Tools
 
