@@ -193,7 +193,6 @@ A complete Linux based operating System targeted for primary and secondary educa
 The Edubuntu community is built on the ideas enshrined in the Edubuntu manifesto: that software, especially for education should be available free of charge and that software tools should be usable by people in their local language and despite any disabilities. [14]
 
 *Kubuntu*
-
 	An official derivative of Ubuntu Linux using KDE instead of the GNOME or unity interfaces used by default in Ubuntu.
 KDE "K" has nothing to do with Kubuntu--K is not Kubutu Desktop Environment. Originally the letter "K" was suggested to stand for "Kool" but it was quickly decited that the K should stand for nothing in particular. Therefore the KDE initialism expanded to K Desktop Environment(KDE)
 	Kubuntu is built by worldwide community of developers, testers, supporters and translators. It is a completely free Open Source alternative to Microsoft windows and Mac OS X which contains everything you need to work on play or share. Every package in Kubuntu shares the same repositories as Ubuntu [3] and it is released regularly on the same schedule as Ubuntu [4]. 
