@@ -206,7 +206,7 @@ An official derivative of Ubuntu Linux using ICDE instead of the GNOME or unity 
 
 GNOME (GNU Network Object Model Environment, pronounced as NOHM) is a graphical user interface (GUI) and set of computer Desktop applications for users of the Linux computer operating system. Its intended to make a Linux operating system easy to use for non-programmers and generally corresponds to the windows desktop interface and its most common applications. (Wikipedia)
 
-### Englightnment 
+### Englightenment 
 
 **AbantOS** uses the Enlightenment Window Manager
 
@@ -302,7 +302,7 @@ Another way to boot your external flash drive USB while the computer is ON, is t
 
 * Restart the computer (if on) by choosing to restart using the mouse, or by simply pressing the power button.
 
-* Power the computer back on if power is off. While the computer is beginning to boot up, you will need to press the Boot Menu key to load the Boot Menu. On many computers this is the F12 key, or one of the other F row keys.
+* Power on the computer back on (if off). While the computer is beginning to boot up, you will need to press the Boot Menu key to load the Boot Menu. On many computers this is the F12 key, or one of the other F row keys.
 
 The Boot Menu should now appear. Look for anything regarding booting via USB or removable devices. 
 
@@ -320,7 +320,7 @@ See USB booting issues.
 
 USB Booting Issues
 
-Did you have an issue come up when your PC did not want to boot external flash drive USB even after going to Bios and selecting appropriate device? Did an Error message popped up saying something along the lines of "device is not found"? So what do you do?
+Did you have an issue when your PC did not boot the external flash drive USB even after going to Bios and selecting appropriate device? Did an Error message popped up saying something along the lines of "device is not found"? What do you do?
 
 After you install what ever that it is you want on your external flash drive USB you may find out that you are finding some trouble getting it to work. Now there are some ways to go about this. This means usually something needs to be configured in the BIOS of your computer. 
 
