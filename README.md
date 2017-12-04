@@ -636,7 +636,7 @@ right click on the desktop using the mouse the mouse and you will see all you wa
 ## Installing Ruby gems from the terminal
 Example: Install lolcat from terminal.
 ```
-Sudo gem install lolcat
+sudo gem install lolcat
 ```
 ## Installing with a software package manager (i.e. Synaptic)
 
