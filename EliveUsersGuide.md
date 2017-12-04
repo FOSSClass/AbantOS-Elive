@@ -44,7 +44,7 @@ All contributors hold their original Copyright 2017.
 ![Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](AbantOS-Elive-UsersGuide-17319-CC-BY-SA-v4-Intl-88x31.png)
 
 
-
+ 
 # Introduction
 
 ## Social Dynamics of Debian
