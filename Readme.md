@@ -1,16 +1,6 @@
----
-title: "AbantOS Linux Users Guide (Elive/Debian)"
-author: [See Credits]
-date: 2017-11-05
-subject: "CSCI 2461-70/2482-40 Fall 2017 Final Project"
-tags: [AbantOS, Elive, Linux, Incident Handling, Final Project]
-titlepage: true
-titlpage-color: "D8DE2C"
-titlepage-text-color: "5F5F5F"
-abstract: "AbantOS Linux, based on Elive/Debian with the Englightenment Window Manager/GUI. Created by and in support of the Fall 2017 Saint Paul College CSCI 2461-70 Computer Networking 3 - Linux, and 2482-40 Incident Handling & Disaster Recovery classes. "
-...
+# AbantOS (Elive/Debian Custom Distribution) 
 
-# Collaborative 2461-70/2482-40 Fall 2017 Final Project
+A collaborative 2461-70/2482-40 Fall 2017 Final Project
 
 ## Back Story: Build Your Own Linux
 
