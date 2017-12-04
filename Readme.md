@@ -520,6 +520,10 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 #### Borders
 
+Changing Window Borders:
+
+Click on the desktop and then (settings) this will open the settings panel. Click (Look) and then (Borders) This will open the Default Border Style window. Choose the style you like and click (OK). The changes will take place immediately. If you don't like your changes to the window border follow the steps above and choose (default).
+
 #### Ecomorph
 
 #### Transitions
@@ -535,6 +539,20 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 #### Favorite Applications
 
 #### IBar Applications
+
+Changing Ibar Applications:
+
+The IBar is located at the bottom of the screen and gives you quick access to applications that you use regularly. The default applications can be changed to fit your needs.
+
+Click on the desktop and then (Settings) this will open the Settings Panel. At the top you will see the options /Look/Apps/Screen/Windows/etc. Click (Apps) and then (Ibar Applications). This will open an IBar Applications window. In the Ibar Applications window you will have two options at the top, (Applications) and (Order). The (Applications) tab will show you applications available to the IBar. Applications currently in the IBar will show a light next to them in the IBar Applicatons Window.
+
+To add a new application Click on the desktop and then (Settings) this will open the Settings Panel. At the top you will see the options /Look/Apps/Screen/Windows/etc. Click (Apps) and then (Ibar Applications). This will open an IBar Applications window. Scroll down until you see the application you want to add. Click the (Application) and then near the bottom of the window click (Add). A light will show up next to the application in the window signifying it to be added. Now at the bottom of the window click (ok), the (Ibar Applications Window) will disappear and your Application will have been added to the IBar.
+
+To remove applications Click on the desktop and then (Settings) this will open the Settings Panel. At the top you will see the options /Look/Apps/Screen/Windows/etc. Click (Apps) and then (Ibar Applications). This will open an IBar Applications window. Scroll down until you see the application you want to remove. Click the application you want to remove, at the bottom of the window click (Remove) and the (OK). the (Ibar Applications Window) will disappear and your Application will have been removed. Repeat the process until you remove all unwanted applications from the IBar.
+
+Changing the order/placement of the applications in the IBar.
+
+To change the order of the applications Click on the desktop and then (Settings) this will open the Settings Panel. At the top you will see the options /Look/Apps/Screen/Windows/etc. Click (Apps) and then (Ibar Applications). This will open an IBar Applications window. You have two options at the top, (Applications) and (Order), Click (Order). This will open the application order window. Here you can change the application order by selecting an application and then choosing (Up) (Down) or (Remove). Moving applications up and down in this list will change where it sits on the IBar. Choosing (remove) will remove the highlighted application. Example: Click (Terminology) and then (Down) and then (OK). The Terminology application will move one spot right on the IBar.
 
 #### Screen Lock Applications
 
