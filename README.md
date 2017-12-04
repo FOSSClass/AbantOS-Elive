@@ -643,6 +643,12 @@ sudo gem install lolcat
 ```
 ## Installing with a software package manager (i.e. Synaptic)
 
+## Installing Packages With the Synaptic Package Manager:
+
+
+Click on the desktop and hover over (settings), and then (All) and then (System), click (Synaptic Package Manager). A window will open asking for a password to elevate privileges, enter the root password and click (Authenticate). The Synaptic Package Manager will open. On the left you will have different categories you can choose from.  You can browse the categories for available packages or, you can search for a specific package by selecting the (Search) option. Once you find a package click on the arrow next to the package name, select (mark for installation). A window will open showing a list of libraries to be installed, select (mark). Repeat for any packages you want to install. The packages have not been installed yet, to install your packages that you have marked for installation click the (Apply / green check mark) near the top of the window. A window will open showing the changes to be applied during installation, click (Apply). The download window will show the downloads progress. Some packages may require a reboot after installation.
+
+
 ## Removing from the terminal
 
 ## Removing with a package manager
