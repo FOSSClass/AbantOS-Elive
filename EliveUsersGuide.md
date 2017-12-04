@@ -14,13 +14,13 @@ abstract: "AbantOS Linux, based on Elive/Debian with the Englightenment Window M
 
 ## Back Story: Build Your Own Linux
 
-During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSCI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
+During Week 10 of CSCI 2461-70 and CSCI 2482-40, after significant discussion, all students enrolled in these classes unanimiously decided to join efforts and chose as a Collaborative Class Final Project **building their own Specialized Linux distribution** based on Debian Linux and the Elive project. CSCI 2461-70 is focusing on educational components of Linux, and CSCI 2482-40 is focusing on Incident Handling and Disaster Recovery components.   
 
 This document serves as a Users Guide to the 2482-40 and 2461-70 classes and associated tools, techniques and processes. 
 
 ## Project Name: AbantOS Linux
 
-In the African Bantu group Abantos means "Belongs to Human Beings." 
+In the African Bantu group, Abantos means "Belongs to Human Beings." 
 
 AbantOS Linux is based on and created in collaboration with Thanatermesis of the eLiveCD Project. 
 
@@ -49,20 +49,20 @@ All contributors hold their original Copyright 2017.
 
 ## Social Dynamics of Debian
 
-* The key points to remember in considering Debianos social dynamics as applied to becoming a package maintainer are these:
+* The key points to remember in considering DebianOS social dynamics as applied to becoming a package maintainer are these:
 
     - Debian is a volunteer-powered project, and self-motivation and friendly cooperation are crucial.
     - Debianos development is consistently evolving, and maintainers must adapt along with it. This adaptation must be self-driven; you cannot rely on others to bring you along.
 
 ## Programs Needed for Development
 
-Though many if not all packages necessary for development should come installed with the base Debian installation, it's good to check they are present with *aptitude show package* or *dpkg -s package*. The most important package to make sure is installed is *build-essential*. It should pull in other packages that are necessary for the build environment if theyore not already installed.
+Though many, if not all, packages necessary for development should come installed with the base Debian installation. It's good to check that they are present with *aptitude show package* or *dpkg -s package*. The most important package to be sure to have installed is *build-essential*. It should pull in other packages that are necessary for the build environment if they're not already installed.
 
 Other packages are some measure of helpful and/or necessary for building particular packages down the road. Some are particular compilers for specific languages (i.e. *gfortran* or *gpc*) or packages for scripting languages themselves (i.e. *perl* and *python*). Others make parts of the process easier (such as the *debhelper/dh-make* packages or the *fakeroot* tool) or allow checking for errors after the build (*lintian*). The full range of additional build packages listed should be installed and understood before proceeding.
 
 ## Documentation needed for development
 
-This section of chapter 1 includes the debian-policy which is the explanations of the structures and contents of the Debian archive and several OS design issues. It also includes requirements that each package must satisfy to be included in the distribution.  
+This section of chapter 1 includes the debian-policy, which have the explinations of the structures and contents of the Debian archive and several OS design issues. It also includes requirements that each package must satisfy to be included in the distribution.  
 
 Important documentations that needed to be read for the development are auto tutorial and gnu-standards.  If any errors or bugs occur, the maint-guide package can be used to report using report bug.
 
@@ -120,7 +120,7 @@ When there is a new version upstream, you could use the following steps to updat
 
 ## Choosing your program
 
-The steps to follow after choosing a package to create and in order to check if the package is already in the distribution archive are; the aptitude command, the debian packages web page and the debian package tracker web page.  Debian already has packages in the Debian archive which is much larger than that of contributors with upload rights.  If you are able to adopt the package, get the sources by using the apt-get source command, but if you are installing new packages in Debian follow the steps below:
+The steps to follow after choosing a package to create and in order to check if the package is already in the distribution archive are; the aptitude command, the debian packages web page, and the debian package tracker web page.  Debian already has packages in the Debian archive which is much larger than that of contributors with upload rights.  If you are able to adopt the package, get the sources by using the apt-get source command, but if you are installing new packages in Debian follow the steps below:
 
     1. First step is to confirm that the program works. 
     2. Second, Make sure no one is working on the package. If no one is working on it, file an ITP bug report to the WNPP pseudo-package using report bug.Africa If someone else is already working on it, contact them if you feel you need to. 
@@ -146,7 +146,7 @@ There are a few steps mentioned on this section to get the package and try it ou
 
 ## Popular Portable Build Systems
 
-Free software is often written in C or C++, and these often use portable build systems to make them portable across platforms. *Autotools* is one example of such a build system; it comprises *Autoconf, Automake, Libtool, and Gettext*. (Cmake is an alternative build system.)
+Free software is often written in C or C++ and these often use portable build systems to make them portable across platforms. *Autotools* is one example of such a build system. It comprises *Autoconf, Automake, Libtool, and Gettext*. (Cmake is an alternative build system.)
 
 With these build tools, they must be used to generate the Makefile and other required source files first. The program can then be built using *make; make install*.
 
@@ -161,7 +161,7 @@ The Autotools workflow generally proceeds as:
 
 Ubuntu is a Linux distro that starts with the breadth of Debian and adds regular releases (every six months) commitment to security updated with nine months of support for every release. 
 
-Ubuntu builds on the foundations of Debian's architecture and infrastructure but there are important differences such as, Ubuntu has its own user interface, a separate developer community and different release process. 
+Ubuntu builds on the foundations of Debian's architecture and infrastructure but there are important differences such as Ubuntu has its own user interface, a separate developer community, and different release process. 
 Debian is the rock upon which Ubuntu is built. It is a volunteer project that has developed and maintained a GNV/Linux Operating System of the same name over a decade.
 Since its launch, the Debian project has grown to comprise more than 1,000 members with official developers status, alongside many more volunteers and contributors.
 Debian is a free operating system. An operating system is the set of basic programs and utilities that make your computer run. At the core of the operating system is a Kernel. The Kernel is the most fundamental program on the computer and does all the basic housekeeping and lets you start other programs. Debian system use Linux Kernel or the BSD Kernel. Today Debian encompasses over 20,000 packages of free open source applications and documentation.
@@ -178,7 +178,7 @@ Ubuntu is proud to be based on Debian. Ubuntu developers want to maintain a heal
 
 Ubuntu has a narrow focus--community based while Debian is Universal.
 
-Ubuntu has its own community government structure somehow inspired by Debian's but different. (MOTU) The masters of the universe were team formed to look after the creation of the universe component.
+Ubuntu has its own community government structure, somehow inspired by Debian's, but different. (MOTU) The masters of the universe were team formed to look after the creation of the universe component.
 
 **Debian for Ubuntu developers**
 
@@ -190,13 +190,13 @@ Ubuntu is Debian based.
 *Edubuntu*
 
 A complete Linux based operating System targeted for primary and secondary education. It is freely available with community based support.
-The Edubuntu community is built on the ideas enshrined in the Edubuntu manifesto: that software, especially for education should be available free of charge and that software tools should be usable by people in their local language and despite any disabilities. [14]
+The Edubuntu community is built on the ideas enshrined in the Edubuntu manifesto that software, especially for education, should be available free of charge and that software tools should be usable by people in their local language and despite any disabilities. [14]
 
 *Kubuntu*
-	An official derivative of Ubuntu Linux using KDE instead of the GNOME or unity interfaces used by default in Ubuntu.
+	An official derivative of Ubuntu Linux using KDE instead of the GNOME, or unity interfaces used by default in Ubuntu.
 KDE "K" has nothing to do with Kubuntu--K is not Kubutu Desktop Environment. Originally the letter "K" was suggested to stand for "Kool" but it was quickly decited that the K should stand for nothing in particular. Therefore the KDE initialism expanded to K Desktop Environment(KDE)
 	Kubuntu is built by worldwide community of developers, testers, supporters and translators. It is a completely free Open Source alternative to Microsoft windows and Mac OS X which contains everything you need to work on play or share. Every package in Kubuntu shares the same repositories as Ubuntu [3] and it is released regularly on the same schedule as Ubuntu [4]. 
-	It's easier to install Kubuntu and it has all the apps just automatically download and istall. You can watch your favorite movies on VLC, play your music collection in Cantata, create and edit your documents with LibreOffice and Seamlessly intergrate your mobile phone (VOIP cell phone intergration/phonage business).
+	It's easier to install Kubuntu and it has all the apps just automatically download and install. You can watch your favorite movies on VLC, play your music collection in Cantata, create and edit your documents with LibreOffice and Seamlessly intergrate your mobile phone (VOIP cell phone intergration/phonage business).
 	The latest vertion release of the Kubuntu OS	17.10
 
 
