@@ -518,6 +518,20 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 #### Fonts
 
+##Change Applications Fonts:
+
+
+Click on the (Desktop), and then click (Settings). The (Settings) Panel will open, click (Fonts). The (Font Settings) Panel will open. Under (Font Classes) choose (Applications) and check the (Enable Font Class) box. Choose a font under (Font). Choose a font style under (Style). Choose a font size under (Size). Click the (Ok) box at the bottom. The changes will take place immediately.
+
+##Example: Try DimWitGauche Applications Font.
+
+Click on the (Desktop), and then click (Settings). The (Settings) Panel will open, click (Fonts). The (Font Settings) Panel will open.  You have two options on the top bar, (General Settings) & (Hinting/Fallbacks). Choose (General Settings), You will have four options under general settings. (Font Classes) (Font) (Style) & (Size). Under (Font Classes) click (Applications). Next, check the box (Enable Font Class). Under (Font) select (DimWitGauche). Under (Style) you have one option (Regular), leave it. Under Size click (Really Big). Click the (Ok) button at the bottom. Open the Thunar File Manager to see the changes.
+
+
+##Change Title Bar/Window Fonts:
+
+Click on the (Desktop), and then click (Settings). The (Settings) Panel will open, click (Fonts). The (Font Settings) Panel will open. Under (Font Classes) choose (Title Bar) and check the (Enable Font Class) box. Choose a font under (Font). Choose a font style under (Style). Choose a font size under (Size). Click the (Ok) box at the bottom. The changes will take place immediately. 
+
 #### Borders
 
 #### Ecomorph
