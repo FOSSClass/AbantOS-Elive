@@ -252,7 +252,7 @@ The archive of release notes on the Beta releases of Elive can be found at http:
 
 ### What is BIOS?
 
-First things first. BIOS stands for Basic Input Output System referred to as BIOS, is software stored on a small memory chip on the motherboard. It give the computer a set of instructions on how to perform some of the basic functions such as booting and keyboard control as well as configure the hardware in a computer including the hard drive, floppy drive, USB, optical drive, CPU, memory to list a few.
+BIOS stands for Basic Input Output System referred to as BIOS. It is a software stored on a small memory chip on the motherboard. It give the computer a set of instructions on how to perform some of the basic functions such as booting and keyboard control as well as configure the hardware in a computer including the hard drive, floppy drive, USB, optical drive, CPU, and memory.
 
 ### What is EFI and UEFI? 
 
@@ -300,11 +300,27 @@ Another way to boot your external flash drive USB while the computer is ON, is t
 
 ### Booting (PC) from an external USB device
 
+* Begin by inserting the Flash drive USB to a USB port. 
+
+* Restart the computer (if on) by choosing to restart using the mouse, or by simply pressing the power button.
+
+* Power the computer back on if power is off. While the computer is beginning to boot up, you will need to press the Boot Menu key to load the Boot Menu. On many computers this is the F12 key, or one of the other F row keys.
+
+The Boot Menu should now appear. Look for anything regarding booting via USB or removable devices. 
+
+* Use the arrow keys to highlight the desired USB or removable device and press enter to select.
+
+The computer should now boot via Flash drive USB.
+
+
+If nothing happens, or it didn't work, you may need to enter the BIOS and configure the settings to see the boot menu.
+
+See USB booting issues.
 
 
 ### USB Booting Issues
 
-USB Booting Issues?
+USB Booting Issues
 
 Did you have an issue come up when your PC did not want to boot external flash drive USB even after going to Bios and selecting appropriate device? Did an Error message popped up saying something along the lines of "device is not found"? So what do you do?
 
@@ -320,13 +336,15 @@ UEFI motherboards support what is called legacy boot, which allows the computer 
 
 Here are the steps to to configure UEFI/Legacy Boot:
 
-* Begin by restarting the computer by choosing to restart using the mouse, or by simply pressing the power button on the keyboard.
+* Begin by inserting the Flash drive USB to a USB port. 
 
-* While the computer is beginning to boot up, continueously press the key F12 until the boot menu comes up. 
+* Restart the computer by choosing to restart using the mouse, or by simply pressing the power button on the keyboard.
+
+* While the computer is beginning to boot up, continuously press the F12 key until the Boot Menu comes up. 
 
 If nothing happens, or it didn't work, you may need to enter the BIOS and configure the settings to see the boot menu.
 
-* Once again, you may need to restart the computer. THIS time, instead of pressing the key f12 , you'll want to press the F1 Key. 
+* Once again, you may need to restart the computer. THIS time, instead of pressing the F12, you'll want to press the F1 Key. 
 This will allow you to enter the BIOS. 
 
 You'll want to look for anything regarding UEFI/Legacy Boot. 
