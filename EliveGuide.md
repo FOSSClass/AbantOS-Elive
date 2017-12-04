@@ -263,8 +263,6 @@ BIOS stands for Basic Input Output System referred to as BIOS. It is a software 
 ### Booting (Mac) from an external USB device
 
  APPLE iOS MAC USER
-
- If you are using an iOS - APPLE Mac, and are having some issues geting your external flashdrive USB to work, You can try some of these steps.
  
  You can boot using an external flash drive USB using the built-in feature called Startup Manager
  
@@ -300,7 +298,7 @@ Another way to boot your external flash drive USB while the computer is ON, is t
 
 ### Booting (PC) from an external USB device
 
-* Begin by inserting the Flash drive USB to a USB port. 
+* Begin by inserting the flash drive USB to a USB port. 
 
 * Restart the computer (if on) by choosing to restart using the mouse, or by simply pressing the power button.
 
@@ -310,10 +308,10 @@ The Boot Menu should now appear. Look for anything regarding booting via USB or 
 
 * Use the arrow keys to highlight the desired USB or removable device and press enter to select.
 
-The computer should now boot via Flash drive USB.
+The computer should now boot via flash drive USB.
 
 
-If nothing happens, or it didn't work, you may need to enter the BIOS and configure the settings to see the boot menu.
+If nothing happens, or it did not work, you may need to enter the BIOS to configure the settings to see the boot menu.
 
 See USB booting issues.
 
