@@ -519,39 +519,6 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 ## Colors
 
-### Customize Colors:
-
-Click on the desktop and then click (Settings). Under (Look) choose (Colors). The Colors window will open. From here you can customize window frame colors, window text colors, button text colors, Etc.
-
-Changing Window Frame Colors:
-
-**Changing the Active Window Color.**
-
-- The (Border Frame Active) window is whatever window you are currently working in.
-- If you have multiple windows open the 'active border frame' will change depending on which one the mouse is hovering over.
-
-Click on the desktop and then click (Settings). Under (Look) choose (Colors). The Colors window will open. Click (Border Frame Active) Next click the (Custom colors) check box. Click the box under (Object:) A color selector window will open. Drag the (Alpha) knob all the way to the right to 255. Click through (R) (G) (B) (H) (S) (V). This is your starting Reds, Greens, Blues, Etc. Move the color sliders around and notice the changes to the large color palette on the left. When you see a color you like in the large color palette box, click it. The color you selected will display in the lower box. Click the (Select) button. The color selector window will close and the color you chose will now be displayed in the (Colors) window still open. Click the (Ok) button on the bottom. The color window will close and the window color will change. You should be able to see the change on the (Settings) panel still open.
-
-
-**Changing the (Border Frame) Color.**
-
-- The (Border Frame) windows are any open windows in the background that are not the active window
-
-Click on the desktop and then click (Settings). Under (Look) choose (Colors). The Colors window will open. Click (Border Frame). Next click the (Custom colors) check box. Click the box under (Object:) A color selector window will open. Drag the (Alpha) knob all the way to the right to 255. Click through (R) (G) (B) (H) (S) (V). This is your starting Reds, Greens, Blues, Etc. Move the color sliders around and notice the changes to the large color palette on the left. When you see a color you like in the large color palette box, click it. The color you selected will display in the lower box. Click the (Select) button. The color selector window will close and the color you chose will now be displayed in the (Colors) window still open. Click the (Ok) button on the bottom. The color window will close and and the (Border Frame) will have changed. Open two windows and move the mouse over different windows to see the change in color.
-
-
-Changing Window Text Colors:
-
-
-**Changing the (Border Title Active) Color**
-
-- The (Border Title Active) option changes the text color in the 'active' window.
-
-
-Click on the desktop and then click (Settings). Under (Look) choose (Colors). The Colors window will open. Click (Border Title Active). Next click the (Custom colors) check box. Click the box under (Object:) A color selector window will open. Drag the (Alpha) knob all the way to the right to 255. Click through (R) (G) (B) (H) (S) (V). This is your starting Reds, Greens, Blues, Etc. Move the color sliders around and notice the changes to the large color palette on the left. When you see a color you like in the large color palette box, click it. Make sure it is a different color than the 'Border Frame Active' color. The color you selected will display in the lower box. Click the (Select) button. The color selector window will close and the color you chose will now be displayed in the (Colors) window still open. Click the (Ok) button on the bottom. The color window will close and and the (Border Active Title) will have changed. 
-
-
-
 ## Fonts
 
 **Change Applications Fonts:**
@@ -605,12 +572,49 @@ To remove applications Click on the desktop and then (Settings) this will open t
 - To change the order of the applications Click on the desktop and then (Settings) this will open the Settings Panel. At the top you will see the options /Look/Apps/Screen/Windows/etc. Click (Apps) and then (Ibar Applications). This will open an IBar Applications window. You have two options at the top, (Applications) and (Order), Click (Order). This will open the application order window. Here you can change the application order by selecting an application and then choosing (Up) (Down) or (Remove). Moving applications up and down in this list will change where it sits on the IBar. Choosing (remove) will remove the highlighted application. Example: Click (Terminology) and then (Down) and then (OK). The Terminology application will move one spot right on the IBar.
 
 ## Screen Lock Applications
-
+	Managing large enterprise could be a chalange.
 ## Screen Unlock Applications
 
 ## Restart Applications
+System administrator may find various challenges.  Being able to restart an application from the command line can be intimidating, system Admins can mitigate this issue with the following commands.  Applications run under the libraries /etc/init.d or etc/init.d/ SERVICEName using the Restart command depending on the need. 
 
-## Startup Applications
+Find the version of OS running type the command dpkg -l|grep systemd 
+root@Elive-GersonPortillo:/u/s/doc ❯❯❯ dpkg -l|grep systemd
+ii  libsystemd-login0:i386                    44-11+deb7u4                            i386         systemd login utility library
+
+Issue the command ls /etc/init.d and it will list all the process and application running. In this example we will be turning off postfix as the application running under ceans.
+root@Elive-GersonPortillo:/u/s/doc ❯❯❯ ls /etc/init.d                                                                                                                                                                                      1
+acpid         binfmt-support          checkroot.sh           cryptdisks        fail2ban     hwclock.sh      lightdm                mountdevsubfs.sh       network-manager  plymouth      rc.local   rsyslog   sudo          umountroot
+acpi-fakekey  bluetooth               cleantemporalthings    cryptdisks-early  fixdevshm    irqbalance      lm-sensors             mountkernfs.sh         ntp              plymouth-log  rcS        samba     thermald      urandom
+acpi-support  bootlogs                closestalledprocesses  cups              halt         kbd             loadcpufreq            mountnfs-bootclean.sh  nurse            postfix       README     sendsigs  udev          virtualbox
+alsa-utils    bootmisc.sh             console-setup          dbus              hddtemp      keyboard-setup  motd                   mountnfs.sh            openbsd-inetd    pppd-dns      reboot     single    udev-mtab     vsftpd
+anacron       checkfs.sh              cpufrequtils           dns-clean         hdparm       killprocs       mountall-bootclean.sh  mtab.sh                open-vm-tools    procps        rmnologin  skeleton  umountfs      x11-common
+apmd          checkroot-bootclean.sh  cron                   dnsmasq           hostname.sh  kmod            mountall.sh            networking             openvpn          rc            rsync      ssh       umountnfs.sh
+root@Elive-GersonPortillo:/u/s/doc ❯❯❯
+re
+
+The command ls /etc/init.d will show the running application.  
+
+In order to restart the application an admistrator will issue th command sudo /etc/init.d/postfix "restart" 
+ 
+screenshot of the mail server restarting up.
+root@Elive-GersonPortillo:/e/init.d ❯❯❯ sudo /etc/init.d/postfix restart
+Stopping Postfix Mail Transport Agent: postfix.
+Starting Postfix Mail Transport Agent: postfix.
+
+
+
+
+ 
+  
+
+## Startup Applications/Stop
+root@Elive-GersonPortillo:/e/init.d ❯❯❯ sudo /etc/init.d/postfix start                                                                     Starting Postfix Mail Transport Agent: postfix.
+
+root@Elive-GersonPortillo:/e/init.d ❯❯❯ sudo /etc/init.d/postfix stop
+Stopping Postfix Mail Transport Agent: postfix.
+
+
 
 ## Default Applications
 
