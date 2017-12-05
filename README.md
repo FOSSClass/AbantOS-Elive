@@ -519,6 +519,39 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 ## Colors
 
+### Customize Colors:
+
+Click on the desktop and then click (Settings). Under (Look) choose (Colors). The Colors window will open. From here you can customize window frame colors, window text colors, button text colors, Etc.
+
+Changing Window Frame Colors:
+
+**Changing the Active Window Color.**
+
+- The (Border Frame Active) window is whatever window you are currently working in.
+- If you have multiple windows open the 'active border frame' will change depending on which one the mouse is hovering over.
+
+Click on the desktop and then click (Settings). Under (Look) choose (Colors). The Colors window will open. Click (Border Frame Active) Next click the (Custom colors) check box. Click the box under (Object:) A color selector window will open. Drag the (Alpha) knob all the way to the right to 255. Click through (R) (G) (B) (H) (S) (V). This is your starting Reds, Greens, Blues, Etc. Move the color sliders around and notice the changes to the large color palette on the left. When you see a color you like in the large color palette box, click it. The color you selected will display in the lower box. Click the (Select) button. The color selector window will close and the color you chose will now be displayed in the (Colors) window still open. Click the (Ok) button on the bottom. The color window will close and the window color will change. You should be able to see the change on the (Settings) panel still open.
+
+
+**Changing the (Border Frame) Color.**
+
+- The (Border Frame) windows are any open windows in the background that are not the active window
+
+Click on the desktop and then click (Settings). Under (Look) choose (Colors). The Colors window will open. Click (Border Frame). Next click the (Custom colors) check box. Click the box under (Object:) A color selector window will open. Drag the (Alpha) knob all the way to the right to 255. Click through (R) (G) (B) (H) (S) (V). This is your starting Reds, Greens, Blues, Etc. Move the color sliders around and notice the changes to the large color palette on the left. When you see a color you like in the large color palette box, click it. The color you selected will display in the lower box. Click the (Select) button. The color selector window will close and the color you chose will now be displayed in the (Colors) window still open. Click the (Ok) button on the bottom. The color window will close and and the (Border Frame) will have changed. Open two windows and move the mouse over different windows to see the change in color.
+
+
+Changing Window Text Colors:
+
+
+**Changing the (Border Title Active) Color**
+
+- The (Border Title Active) option changes the text color in the 'active' window.
+
+
+Click on the desktop and then click (Settings). Under (Look) choose (Colors). The Colors window will open. Click (Border Title Active). Next click the (Custom colors) check box. Click the box under (Object:) A color selector window will open. Drag the (Alpha) knob all the way to the right to 255. Click through (R) (G) (B) (H) (S) (V). This is your starting Reds, Greens, Blues, Etc. Move the color sliders around and notice the changes to the large color palette on the left. When you see a color you like in the large color palette box, click it. Make sure it is a different color than the 'Border Frame Active' color. The color you selected will display in the lower box. Click the (Select) button. The color selector window will close and the color you chose will now be displayed in the (Colors) window still open. Click the (Ok) button on the bottom. The color window will close and and the (Border Active Title) will have changed. 
+
+
+
 ## Fonts
 
 **Change Applications Fonts:**
