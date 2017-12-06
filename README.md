@@ -12,7 +12,7 @@ This document serves as a Users Guide to the 2482-40 and 2461-70 classes and ass
 
 In the African Bantus belong to Bantu group, 'Abanto' in my dilect laguage 'kisii' Abantos means "Belongs to Human Beings/man"
 
-AbantOS Linux is based on and created in collaboration with Thanatermesis of the eLiveCD Project. 
+AbantOS Linux is based on and created in collaboration with Thanatermesis of the Elive Project. 
 
 The name AbantOS is partially an homage to Ubuntu Linux.  
 
@@ -39,14 +39,14 @@ All contributors hold their original Copyright 2017.
 
 ## Social Dynamics of Debian
 
-* The key points to remember in considering Debianos social dynamics as applied to becoming a package maintainer are these:
+* The key points to remember in considering Debian social dynamics as applied to becoming a package maintainer are these:
 
     - Debian is a volunteer-powered project, and self-motivation and friendly cooperation are crucial.
-    - Debianos development is consistently evolving, and maintainers must adapt along with it. This adaptation must be self-driven; you cannot rely on others to bring you along.
+    - Debian development is consistently evolving, and maintainers must adapt along with it. This adaptation must be self-driven; you cannot rely on others to bring you along.
 
 ## Programs Needed for Development
 
-Though many if not all packages necessary for development should come installed with the base Debian installation, it's good to check they are present with *aptitude show package* or *dpkg -s package*. The most important package to make sure is installed is *build-essential*. It should pull in other packages that are necessary for the build environment if theyore not already installed.
+Though many if not all packages necessary for development should come installed with the base Debian installation, it's good to check they are present with *aptitude show package* or *dpkg -s package*. The most important package to make sure is installed is *build-essential*. It should pull in other packages that are necessary for the build environment if they are not already installed.
 
 Other packages are some measure of helpful and/or necessary for building particular packages down the road. Some are particular compilers for specific languages (i.e. *gfortran* or *gpc*) or packages for scripting languages themselves (i.e. *perl* and *python*). Others make parts of the process easier (such as the *debhelper/dh-make* packages or the *fakeroot* tool) or allow checking for errors after the build (*lintian*). The full range of additional build packages listed should be installed and understood before proceeding.
 
@@ -105,7 +105,7 @@ When there is a new version upstream, you could use the following steps to updat
     $ gbp import-orig -uscan
     $ gbp import-orig /path/to/new-upstream.tar.gz -u 0.2
 
-*if the upstream tarball is already exist in the form of packagename_version.orgi.tar.gz, then the -u option is not required.
+*if the upstream tarball already exist in the form of packagename_version.orig.tar.gz, then the -u option is not required.
 
 
 ## Choosing your program
@@ -130,7 +130,7 @@ There are a few steps mentioned on this section to get the package and try it ou
 ## Simple build systems
 
     1. Simple programs comes with a Makefile which can be compiled by invoking make. 
-    2. Compile and run to make sure your program works so it wonot break something else while its installing or running. 
+    2. Compile and run to make sure your program works so it won't break something else while it's installing or running. 
     3. You can run make clean to clean up the build directory. 
     4. You can use the make uninstall to remove all the installed files.
 
@@ -138,7 +138,7 @@ There are a few steps mentioned on this section to get the package and try it ou
 
 Free software is often written in C or C++, and these often use portable build systems to make them portable across platforms. *Autotools* is one example of such a build system; it comprises *Autoconf, Automake, Libtool, and Gettext*. (Cmake is an alternative build system.)
 
-With these build tools, they must be used to generate the Makefile and other required source files first. The program can then be built using *make; make install*.
+With these build tools, they must be used to generate the Makefile and other required source files first. The program can then be built using *make && make install*.
 
 The Autotools workflow generally proceeds as:
 
@@ -159,8 +159,8 @@ apt-get upgrade
 $ git init
 $ git add
 $ git commit -m "First commit"
-$git remote add origin
-$git remote -v 
+$ git remote add origin
+$ git remote -v 
 $ git push origin master 
 
 ## Creating a Package 
@@ -176,9 +176,8 @@ $apt-get install linda
 
 
 ## Source Packages for EFL 
--[] efl-dbp
+-[] efl-dbg
 -[] efl-doc
--[] libecore-dev
 
 ## Install EFL 
 #create a directory
@@ -197,13 +196,13 @@ PREFIX="/usr/local"
 PROJECTS="efl enlightenment"
  
 # Download url
-SITE=" https://git.enlightenment.org/core/"
+SITE="https://git.enlightenment.org/core/"
 OPT="--prefix=$PREFIX"
  
 PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig:$PKG_CONFIG_PATH"
 PATH="$PREFIX/bin:$PATH"
 LD_LIBRARY_PATH="$PREFIX/lib:$LD_LIBRARY_PATH"
-LOG="installe.log"
+LOG="install.log"
 rm -f $LOG      # Delete precedent log file
 touch $LOG      # Create a log file
 date >> $LOG    # Add current date
@@ -215,14 +214,14 @@ for PROJ in $PROJECTS; do
         git clone $SITE$PROJ.git $PROJ
     fi
     # Go building and installing
-    cd $PROJ*
+    cd $PROJ
     make clean distclean || true
     ./autogen.sh $OPT
     make
     sudo make install
     cd ..
     sudo ldconfig
-    echo $PROJ" is installed" >> $LOG
+    echo "$PROJ is installed" >> $LOG
 done
  
 #Optionnal Terminology
