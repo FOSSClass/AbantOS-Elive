@@ -152,7 +152,7 @@ The Autotools workflow generally proceeds as:
 
     1. Upstream runs autoreconf -i -f in the source directory and distributes the generated files along with the source.
     2. The user obtains the distributed source and runs ./configure && make in the source directory to compile the program in an executable source binary.
-
+-Initially, the repository you create in Bitbucket is going to be empty without any code in it. That's okay because you will start adding some files to it soon. This Bitbucket repository will be the central repository for your files, which means that others can access that repository if you give them permission. After creating a repository, you'll copy a version to your local system—that way you can update it from one repo, then transfer those changes to the other
 ## Creating a Repository 
 Two types of 
 dpkg-scanpackages
