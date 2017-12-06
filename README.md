@@ -299,7 +299,7 @@ GNOME (GNU Network Object Model Environment, pronounced as NOHM) is a graphical 
 
 ## Elive background/history
 ELIVE BACKGROUND
-Elive, which is a Linux distro based on Debian GNU/Linux, was created in Belgium in the early 2005.  Elive is known for it's Enlightenment desktop environment, and the heavy use of eye candy. Even though Elive has a very decorative looks, it is quite small and fast. It all started with the purpose of customizing a Knoppix (which is a bootable live system on CD or flash drive, or DVD, consisting of a representative collection of GNU/Linux software, automatic hardware detection, and support for many graphics cards, sound cards, SCSI and USB devices and other peripherals.) The initial intentions were to create the Knoppix which will be a Live CD running the Enlightenment and with the designs based in the Evil Entity distro this was called Tezcatlipotix. The end result after this research period turned out to be better than what was expected. So they decided to make from there on a public version of the new creation.  Two months after the first public version with the name of Elive came out, and was already directly appearing in Slashdot. This was actually just the beginning. After the public version was created, Elive founders continued the development with more versions and features. A year later the Elive organisation started asking for donation in order to keep the project running. One the good things about Elive is that it’s utilizes Union FS, which allows users to install software packages using Synaptic and/or APT, while the user's computer is running from the Live CD. Also Elive comes with a Live CD that allows the user to try the distribution before installing it on the system. Elive can be used like any Live CD but but with linmitation odf the features. It can also be installed to the hard drive this will give full access to all Elive features. 
+Elive, which is a Linux distro based on Debian GNU/Linux, was created in Belgium in the early 2005. Elive is known for it's Enlightenment desktop environment, and the heavy use of eye candy. Even though Elive has a very decorative looks, it is quite small and fast. It all started with the purpose of customizing a Knoppix (which is a bootable live system on CD/DVD or flash drive, consisting of a representative collection of GNU/Linux software, automatic hardware detection, and support for many graphics cards, sound cards, SCSI and USB devices and other peripherals). The initial intentions were to create the Knoppix which will be a Live CD running the Enlightenment and with the designs based in the Evil Entity distro this was called Tezcatlipotix. The end result after this research period turned out to be better than what was expected. So they decided to make from there on a public version of the new creation.  Two months after the first public version with the name of Elive came out, and was already directly appearing in Slashdot. This was actually just the beginning. After the public version was created, Elive founder continued the development with more versions and features. A year later the Elive organisation started asking for donation in order to keep the project running. One the good things about Elive is that uses an Union FS, which allows users to install software packages using Synaptic and/or APT, while the user's computer is running from the Live CD and also allows the users to try it before installing on the computer which will give full access to all the features.
 
 	
 ## Elive purpose/objectives
@@ -419,27 +419,27 @@ Elive utilizes the Enlightenment Window Manager. Enlightenment utilizes a set of
 [elive-tools](https://github.com/Elive/elive-tools) are a set of handy and useful tools by Elive, for specialty use in the [Elive project]()
 
 * audio-configurator
-    - configure individual alsa cards
-* bkp (save states)
+    - configure individual audio cards
+* bkp (incremental backup of directories with patching and comparison features)
 * elivepaste (pastebin)
 * waitfor
     - waits on the shell for a process that terminates and exits, its pretty useful for do things like: $ waitfor rebuild-packages && rebuild-iso
 * user-manager
-* make-cookies-with-chocolate
-
+* email-sender (friendly and fast email sender for cli with html templates and attachments that uses mutt and gmail in the backend)
+* git-watcher (and amazing and extremely handy git tool to watch and import commits with multi-user features) 
 
 ## Enlightenment Foundation Linux (EFL) Components
 
 1. **Evas** 
     - Core scene graph and rendering
-2. **Elina** 
+2. **Eina** 
     - Data strucures and low level helpers
 3. **Edje** 
     - UI layout & animation data files for themes
 4. **Eet** 
     - Data (de)serialization and storage
 5. **Ecore** 
-    - Core loop and system abstractions like x11
+    - Core loops, system abstractions and x11
 6. **Efreet** 
     - Freedesktop.org standards handling
 7. **Eldbus** 
@@ -449,7 +449,7 @@ Elive utilizes the Enlightenment Window Manager. Enlightenment utilizes a set of
 9. **Eeze** 
     - Device enumeration and access library
 10. **Emotion** 
-    - Video decode wrapping, glue and abstraction
+    - Multimedia wrapper, glue and abstraction
 11. **Ethumb** 
     - Thumbnailing handler
 12. **Ephysics** 
@@ -459,7 +459,7 @@ Elive utilizes the Enlightenment Window Manager. Enlightenment utilizes a set of
 14. **Evas Generic Loaders** 
     - Extra image loaders for complex image types
 15. **Emotion Generic Players** 
-    - Extra video decoders (for vlc)
+    - Extra video decoders
 16. **Elementary** 
     - Widgets and high level abstractions
 
@@ -481,11 +481,13 @@ Left click on the desktop to bring up the menu, hover over Enlightenment to brin
 
 ### Change Wallpaper
 
-Left click on the desktop to bring up the menu. Hover over Settings and Left click it. A settings window will appear. Left click on Wallpaper, the wallpaper settings will appear. Choose one the the wallpapers and click apply. 
+Left click on the desktop to bring up the menu. Hover over Settings and Left click it. A settings window will appear. Left click on Wallpaper, the wallpaper settings will appear. Choose one the the wallpapers and click apply, you can also set images as wallpapers from the file manager.
 
 ### Live / Animated Wallpapers
 
 There are two methods for doing this that I know of, here are both.
+
+Warning: animated wallpapers are not suggested since uses resources for rendering, small sized renderings and non-constant ones should not impact the user experience.
 
 
 #### Live Wallpaper: Method 1
@@ -674,11 +676,11 @@ right click on the desktop using the mouse the mouse and you will see all you wa
 
 Examples:
 
-         apt-get install Firefox: This command installs Firefox web browser 
+         apt-get install firefox-esr: This command installs Firefox web browser 
  
          apt-get install git-annex : This command installs git annex. Git annex is used to manage files and anyone with access can work and share different files. 
     
-         apt –get  install trusty : This package allows users to administer system resources and manage user accounts
+         apt –get install trusty : This package allows users to administer system resources and manage user accounts
 	 
 * Installing with a software package manager
 
