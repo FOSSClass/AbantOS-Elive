@@ -131,7 +131,12 @@ There are a few steps mentioned on this section to get the package and try it ou
     3. Third, if your program comes as some other sort of archive, you should unpack it with the appropriate tools and repack it. 
 
 ## Simple build systems
-
+The SFS is a simple file system format optimized for writing and for low overhead.. The
+advantages of this format are:
+• Event navigation is possible using simple content-independent file system like
+functions.
+• Very low overhead. No loss due to block size granularity
+• Entire valid file system can be created by appending content
     1. Simple programs comes with a Makefile which can be compiled by invoking make. 
     2. Compile and run to make sure your program works so it won't break something else while it's installing or running. 
     3. You can run make clean to clean up the build directory. 
