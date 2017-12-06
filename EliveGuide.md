@@ -268,7 +268,7 @@ BIOS stands for Basic Input Output System referred to as BIOS. It is a software 
  
 * Begin by restarting your computer by clicking the restart option with the mouse or by simply pressing the power button.
 
-* Right when the computer begins to boot up and you hear the booting sound, (before the the logo appears), immediately press and hold the Option (⌥) key, until the Startup Manager appears.
+* Right when the computer begins to boot up and you hear the booting sound, (before the the logo appears) immediately press and hold the Option (⌥) key, until the Startup Manager appears.
 
 Startup Manager will scan and list connected drives and volumes that can be booted from.
 
@@ -283,13 +283,11 @@ Another way to boot your external flash drive USB while the computer is ON, is t
 
 * Begin by searching and opening the the System Preferences application in the Dock.
 
-* click the Startup Disk pane and you will see the different disk icons available.
+* Click the Startup Disk pane and you will see all the disk icons available.
 
-* Select the appropriate device or system you would like to use to start the computer up.
+* Select the appropriate device or system you wish to use to boot with.
 
-* Now click the Restart button or press the power button to start up your Mac using the chosen volume.
-
- Startup Manager will only list USB's that contain bootable volumes.
+* Now restart the computer by selecting restart or by pressing the power button and then power it back on.
  
  You should now be able to boot the external flash drive USB.
 
@@ -322,9 +320,9 @@ USB Booting Issues
 
 Did you have an issue when your PC did not boot the external flash drive USB even after going to Bios and selecting appropriate device? Did an Error message popped up saying something along the lines of "device is not found"? What do you do?
 
-After you install what ever that it is you want on your external flash drive USB you may find out that you are finding some trouble getting it to work. Now there are some ways to go about this. This means usually something needs to be configured in the BIOS of your computer. That means tweaking a few settings to allow the external flash drive USB to be recognized and run. Once this is complete, your external hard drive USB device should now be able to run and work.
+After you install what ever that it is you want on your external flash drive USB you may find out that you are finding some trouble getting it to work. This means something needs to be configured in the BIOS to allow the external flash drive USB to be recognized and booted. Once this is complete, your external hard drive USB device should now be able to run and work.
 
-One of the likely reasons why you may be running into this problem is that, because some computers boot immediately from the internal hard drive usually solid state drive (SSD)by default, which ignores any bootable devices unless it is instructed to do otherwise. Some computers may use UEFI motherboards instead of the tradional BIOS. This all depends on the operating system, as it may support either UEFI or BIOS. 
+Some computers boot immediately from the internal hard drive by default, which ignores any bootable devices unless it is instructed to do otherwise. Some computers may use UEFI motherboards instead of the tradional BIOS. This all depends on the operating system, as it may support either UEFI or BIOS. 
 
 UEFI motherboards support what is called legacy boot, which allows the computer to boot external devices instead of the internal default.
 
@@ -352,7 +350,7 @@ You'll want to look for anything regarding UEFI/Legacy Boot.
 You should now be able to boot via external flash drive USB.
 
 **References**
-(https://www.pcworld.com/article/3057176/hardware/the-hidden-challenges-of-booting-from-a-usb-flash-drive.html)
+"[USB Troubleshooting](https://www.pcworld.com/article/3057176/hardware/the-hidden-challenges-of-booting-from-a-usb-flash-drive.html/)"
 
 ## Installing on hardware (or Live sessions w/ Persistence)
 
