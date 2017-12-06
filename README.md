@@ -793,11 +793,11 @@ To maintain the privacy of users of the Linux system and manage their accounts a
 
 Before we talk about how to create and delete a user account I will talk about the most important text file (/etc/passwd) this text file contains all necessary details and information about all users in the Linux system.
 
-This file it is open to read only for users, and it is read and writable for root account.
+This file is open to users only, and it is readable and writable for root account.
 
 ### /etc/passwd file
 
-The /etc/passwd file containe only one separate line, limited by a colon (:) for each user account in the system, also it is stored the information for each user using the Linux system. Every time we add new user to the system all details and information for the new user will stored in the same file. 
+The /etc/passwd file contains only one separate line, limited by a colon (:) for each user account in the system, also it stores the information for each user using the Linux system. Every time we add a new user to the system all details and information for the new user will be stored in the same file. 
 
 root /h/jamal  >>> sudo  cat  /etc/passwd
 
