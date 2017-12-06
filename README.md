@@ -933,7 +933,7 @@ sudo apt-get
 ## How are we going to use this? 
 
 ## What are your biggest challenges to learning Linux? 
-The biggest challenges for learning Linux are commands, create a file, and installed image Ubuntu into the USB. When I started to learning the Linux from this course, it is hard for me at the beginning. 
+The biggest challenges for learning Linux are commands, creating files, and installing image Ubuntu onto the USB. When I started learning Linux from this course, it was hard for me at the beginning. 
 ## What tools and techniques are helpful to you? 
 
 Talk to potential users!
