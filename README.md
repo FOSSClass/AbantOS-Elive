@@ -277,6 +277,7 @@ Ubuntu has a narrow focus--community based while Debian is Universal.
 Ubuntu has its own community government structure somehow inspired by Debian's but different. (MOTU) The masters of the universe were team formed to look after the creation of the universe component.
 
 **Debian for Ubuntu developers**
+**** debhelper and dh-make - dh-make is necessary to create the skeleton of our example package, and it will use some of thedebhelper tools for creating packages. They are not essential for this purpose, but are highly recommended for new maintainers. It makes the whole process very much easier to start, and to control afterwards
 
 Ubuntu benefits from a strong Debian and Debian benefits from a strong Ubuntu.
 
