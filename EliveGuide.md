@@ -264,7 +264,7 @@ BIOS stands for Basic Input Output System referred to as BIOS. It is a software 
 
  APPLE iOS MAC USER
  
- You can boot using an external flash drive USB using the built-in feature called Startup Manager
+ You can boot using an external flash drive USB using Startup Manager.
  
 * Begin by restarting your computer by clicking the restart option with the mouse or by simply pressing the power button.
 
@@ -324,9 +324,7 @@ Did you have an issue when your PC did not boot the external flash drive USB eve
 
 After you install what ever that it is you want on your external flash drive USB you may find out that you are finding some trouble getting it to work. Now there are some ways to go about this. This means usually something needs to be configured in the BIOS of your computer. That means tweaking a few settings to allow the external flash drive USB to be recognized and run. Once this is complete, your external hard drive USB device should now be able to run and work.
 
-One of the likely reasons why you may be running into this problem is that, because some of todays computers boot immediately from the internal hard drive usually solid state drive (SSD)by default, and ignores any bootable devices unless it is instructed to do otherwise.
-
-It is also that because some computers may use UEFI motherboards instead of the tradional BIOS. This all depends on the operating system, as it may support either UEFI or BIOS. 
+One of the likely reasons why you may be running into this problem is that, because some computers boot immediately from the internal hard drive usually solid state drive (SSD)by default, which ignores any bootable devices unless it is instructed to do otherwise. Some computers may use UEFI motherboards instead of the tradional BIOS. This all depends on the operating system, as it may support either UEFI or BIOS. 
 
 UEFI motherboards support what is called legacy boot, which allows the computer to boot external devices instead of the internal default.
 
