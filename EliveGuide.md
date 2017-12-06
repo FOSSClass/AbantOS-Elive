@@ -268,7 +268,7 @@ BIOS stands for Basic Input Output System referred to as BIOS. It is a software 
  
 * Begin by restarting your computer by clicking the restart option with the mouse or by simply pressing the power button.
 
-* Right when the computer begins to boot up and you hear the booting sound, (before the the logo appears) immediately press and hold the Option (⌥) key, until the Startup Manager appears.
+* Right when the computer begins to boot up and a sound is heard, (usually before the the logo appears) immediately press and hold the Option (⌥) key, until the Startup Manager appears.
 
 Startup Manager will scan and list connected drives and volumes that can be booted from.
 
