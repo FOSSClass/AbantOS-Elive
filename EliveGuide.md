@@ -274,7 +274,7 @@ Startup Manager will scan and list connected drives and volumes that can be boot
 
 * Select the volume you want by using the mouse or arrow keys on the keyboard.
 
-* Double-click or press the Return key to boot your Mac from the selected volume.
+* Use the mouse to select or press the return key to select which to boot your Mac from the selected volume.
 
  You should now be able to boot from external flash drive USB
 
@@ -322,11 +322,9 @@ USB Booting Issues
 
 Did you have an issue when your PC did not boot the external flash drive USB even after going to Bios and selecting appropriate device? Did an Error message popped up saying something along the lines of "device is not found"? What do you do?
 
-After you install what ever that it is you want on your external flash drive USB you may find out that you are finding some trouble getting it to work. Now there are some ways to go about this. This means usually something needs to be configured in the BIOS of your computer. 
+After you install what ever that it is you want on your external flash drive USB you may find out that you are finding some trouble getting it to work. Now there are some ways to go about this. This means usually something needs to be configured in the BIOS of your computer. That means tweaking a few settings to allow the external flash drive USB to be recognized and run. Once this is complete, your external hard drive USB device should now be able to run and work.
 
-That means tweaking a few settings to allow the external flash drive USB to be recognized and run. Once this is complete, your external hard drive USB device should now be able to run and work.
-
-One of the likely reasons why you may be running into this problem is that, because some of todays computers boot immediately from the internal hard drive liek the solid state drive (SSD)by default, and ignores any bootable devices unless it is instructed to do otherwise.
+One of the likely reasons why you may be running into this problem is that, because some of todays computers boot immediately from the internal hard drive usually solid state drive (SSD)by default, and ignores any bootable devices unless it is instructed to do otherwise.
 
 It is also that because some computers may use UEFI motherboards instead of the tradional BIOS. This all depends on the operating system, as it may support either UEFI or BIOS. 
 
