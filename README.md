@@ -38,7 +38,7 @@ All contributors hold their original Copyright 2017.
 # Introduction
 
 ## Social Dynamics of Debian
-
+autoconf, automake, and autotools-dev - many newer programs use configure scripts and Makefile files preprocessed with the help of programs like these (see info autoconf, info automake). autotools-dev keeps up-to-date versions of certain auto files and has documentation about the best way to use those files
 * The key points to remember in considering Debian social dynamics as applied to becoming a package maintainer are these:
 
     - Debian is a volunteer-powered project, and self-motivation and friendly cooperation are crucial.
