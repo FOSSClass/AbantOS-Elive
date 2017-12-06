@@ -61,6 +61,9 @@ Important documentations that needed to be read for the development are auto tut
 There are a few documentations that will help solve any problems we encounter during installing packages or using any commands. Available sources to solve any issues are; websites such as lists.debian.org or wiki.debian.org/Teams.
 
 # Debian Package Building 
+If you already have a completed source package, issue the following commands in the directory where the foo.orig.tar.gz, foo.debian.tar.gz, and foo.dsc files exist to update the local pbuilder chroot system and to build binary packages in it:
+$ sudo pbuilder --update
+$ sudo pbuilder --build foo_version.dsc
 
 ## Workflow
 
