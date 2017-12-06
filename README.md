@@ -143,7 +143,7 @@ functions.
     4. You can use the make uninstall to remove all the installed files.
 
 ## Popular Portable Build Systems
-
+-Linux, the free and open-source operating system, has fewer desktop users than Windows and macOS. But it's also far more flexible. In fact, you can install many of its versions (Linux comes in several different flavors, called distributions or distros) on a USB stick. Once you've created your portable computer, simply plug it into a PC or Mac of your choice, boot it up from the drive, and you're up and running.
 Free software is often written in C or C++, and these often use portable build systems to make them portable across platforms. *Autotools* is one example of such a build system; it comprises *Autoconf, Automake, Libtool, and Gettext*. (Cmake is an alternative build system.)
 
 With these build tools, they must be used to generate the Makefile and other required source files first. The program can then be built using *make && make install*.
