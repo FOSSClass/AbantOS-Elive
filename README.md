@@ -485,7 +485,7 @@ Left click on the desktop to bring up the menu. Hover over Settings and Left cli
 
 ### Live / Animated Wallpapers
 
-There are two methods for doing this that I know of, here are both.
+There is two methods for doing this that I know of, here are both.
 
 Warning: animated wallpapers are not suggested since uses resources for rendering, small sized renderings and non-constant ones should not impact the user experience.
 
