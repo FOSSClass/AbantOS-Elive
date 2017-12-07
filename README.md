@@ -796,6 +796,73 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
     10. Network Storage and Management (NFS, SMB)
     11. Service Configuration (DHCP, FTP, DNS, SSH, HTTP etc...)    
     12. Linux Shell Scripting
+    
+    ### Linux Boot Process and Troubleshooting
+ +
+ +### Boot process and Troubleshooting
+ +
+ +  1. Three major areas
+ +
+ +     1-BIOS
+ +          The first program
+ +          Runs from ROM
+ +          OS independent
+ +	 
+ +          Bios does the following two main tasks
+ +	  1-POST
+ +	   Power on self test
+ +	  2-Boot an OS from
+ +  	    a storage device
+ +	   -Proceed through until it finds an MBR
+ +
+ +        ### the command we use to change the ownership of a file is called chown. For example chown space mohamed space file.txt would change the user owner to mohamed
+
+- chown mohamed file.txt
+
+keep in mind that in order to change the ownership of a file you must be root or elevate privileges with sudo. To change the ownership of a group the command for that would be
+
+-chown :mohamedgroup file.txt
+
+to set both the user owner and group owners you use the command
+
+- chown mohamed:mohamedgroup file.txt
+
+this would change the _ user owner to mohamed and the _group owner to mohamedgroup
+please note that the user and owner group have to exist before changing the ownership of a file. To make sure that the files are owned by the users home directory and their primary group you do this by typing chown -R mohamed:mohamed /home/mohamed.
+
+-chown -R mohamed:mohamed /home/mohamed
+
+This will ensure the file would be owned by the mohamed user and the mohamed group.
+
+--- i practiced doing this on ubuntu by the help of Lynda.
+ +     2-Bootloader
+ +	
+ +	-MBR (Master Boot Record)
+ +	  first sector of the hard drive
+ +	  Bootloader may reside in the MBR
+ +	  and or may reside elsewhere
+ +	-MBR runs the bootloader
+ +	 -Bootloader(Grub, LILO etc..) loads the OS
+ +	-May create an initrd image
+ +          "Initial ramdisk"
+ +
+ +
+ +     3-Kernel
+ +       Bootloader loads the kernel
+ +       -/boot/vmlinuz (z at the end means compressed)
+ +       -Maybe compressed file 
+ +       -linuxrc 
+ +         1. linux run command
+ +       -initrd ramdisk is dismounted
+ +	
+ +        -File system is mounted
+ +	 Kernel runs init.
+ +
+ +
+ +Sources
+ +
+ +https://www.youtube.com/watch?v=mHB0Z-HUauo
+ +How linux works text book. 
 
 ## User Management
 
