@@ -587,6 +587,85 @@ Click on the desktop and then click (Settings). Under (Look) choose (Colors). Th
 
 ## Ecomorph
 
+### Customizing your theme with the Ecomorph Configuration module.
+
+The Ecomorph Configuration module is a powerful tool that allows you fully customize your desktop environment. You can customize open and close animations, minimization effects, application switchers, desktop cube, wobbly windows, At the time of writing I am using a Core i3 550 3.2GHz w/ 4 GB RAM.
+
+Click on the Desktop and then click (Settings).  The Settings Panel Will open, under the (Look) tab click (Ecomorph). The (Ecomorph Configuration) window will open. In the top left corner you will have two buttons, (Start Ecomp) & (Stop Ecomp). The Start Ecomp button starts Ecomorph, and the stop ecomp button stops ecomp. Below those buttons you will see five main categories. 
+
+### The five main plugin categories are.
+
+### 1.) Ecomorph:
+
+**General:**
+
+- If you click the (General) tab you will see options for the base plugins, viewport plugins, switcher plugins, and other plugins. Most of the boxes will be checked by default but If you check the box for (Wobbly), and then click the (OK) button at the bottom; you will have wobbly windows when moving them around the screen.
+
+**Window Opacity:**
+
+- If you click the (Window Opacity) tab, you will see three windows on the right. Options, Window Match, and Opacity for selected match. The (Window Match) section allows you to select specific windows to make adjustments to. Let's start with the dropdown menu, the menu that pops up when you click the desktop. In the Window Match section click on (type=Menu | PopupMenu | DropdownMenu). Next under the (Opacity for selected match) set (Opacity) to 50% by moving the slider to the middle. Click the (OK) button at the bottom of the Ecomorph configuration. The screen will flash a black screen and the changes are complete. Click the desktop ,and you will notice your dropdown menu is halfway invisible. You can repeat the process above for each window/application  type under (Window Match). (class=Xchat) is the Xchat IRC application. (class=terminology) is the Terminology terminal.
+
+**Windows Move/Resize:**
+
+- This option allows you set the opacity for windows being moved around the screen. See through windows!
+
+If you click the (Window Move/Resize) option you have a single slider button near the top. Set the slider to 36% by moving the button slider near the middle. Click the (OK) button near the bottom. Open the Ecomorph Configuration panel again, click and drag the ecomorph window around the desktop; the window should be nearly invisible when moving it around the screen.
+
+**Drop Shadow:**
+
+- The drop shadow effect is the glow around the dropdown menu and open windows. It is a really cool effect for any theme. You can customize the colors, radius, and opacity.
+
+Click the (Windows Move/Resize) tab, two options will appear on the right. Normal Shadow, and Second Shadow. Radius is the thickness of the glow effect and (R, G, B) stands for Red, Green, Blue. By adjusting the RGB values you can get some really cool colors. Opacity is the visibility, more or less transparent.
+
+**Example: If you want a Blue glow effect.**
+
+- Click (Drop Shadow). Under (Normal Shadow) set the (Radius) to 38.5 by moving the slider until 38.5. Set (Opacity) to 1.20 by moving the slider. Set (R) to 0 by moving the slider all the way to the left.. Set (G) to 0 by moving the slider all the way to the left. Set (B) to 255 by moving the slider all the way to the right. Open a window or an application to see the changes. You should see a blue glow around windows.
+
+
+
+### 2.) Animations:
+
+The (Animations) tab has eight sub categories. This will cover the three main categories. Open animation, Close animation, and Minimize animation.
+
+**Open animation:**
+
+- The open animation is the animation that occurs when applications or windows are opened. You have so many awesome animations available for opening animations. 
+
+Random, Airplane, Beam Up, Burn, Curved Fold, Domino, Dream, Explode, Fade, Fold, Glide 1,
+Glide 2, Horiz Folds, Leaf Spread, Magik Lamp, Razr, Sidekick, Skewer, Vacuum, Wave, Zoom.
+
+Let's set the Open animation for our dropdown menu to airplane. Click on the Desktop and then click (Settings).  The Settings Panel Will open, under the (Look) tab click (Ecomorph). The (Ecomorph Configuration) window will open. Click (Open animation) on the left. You will have four options from here, Window match, Animation duration, Animation for selected match, and Animation random pool. In the top window (Window Match) click on (type=Menu | PopupMenu | DropdownMenu). Next, set the (Animation duration) by sliding the (Duration) bar to 245 ms. Next, under (Animation for selected match) click (Airplane). Next we have to clear the (Animation random pool). Un-check every box under (Animation random pool). Click the (OK) button near the bottom. Click on the desktop to bring up the dropdown menu, slowly move the mouse around the menu. You should see a folding airplane animation
+
+Now that we have our open animation set for our dropdown menu, lets set the open animation for the Terminology terminal. Click on the Desktop and then click (Settings).  The Settings Panel Will open, under the (Look) tab click (Ecomorph). The (Ecomorph Configuration) window will open. Click (Open animation) on the left. You will have four options from here, Window match, Animation duration, Animation for selected match, and Animation random pool. In the top window (Window Match) scroll down and click on (class=terminology). Next under the (Animations for selected match) click (Burn). Next click the (OK) button near the bottom. Click on the Terminology icon to bring up the terminal, notice the animation change.
+
+
+
+
+**Close animation:**
+
+- The same concept applies for close animations. You can choose the animation for when you close a window or application. 
+
+Click on the Desktop and then click (Settings).  The Settings Panel Will open, under the (Look) tab click (Ecomorph). The (Ecomorph Configuration) window will open. Click (Close animation) on the left. You will have four options from here, Window match, Animation duration, Animation for selected match, and Animation random pool. In the top window (Window Match) click on (class=terminology). Set the (Animation duration) to 300 ms by sliding the slider button. Next under (Animation for selected match) click (Explode). Click on the Terminology icon and open a terminal, now close the terminal. It should explode when you click close.
+
+If you like a specific animation and want to use the same animation for all applications and windows, you will have to repeat the process for each option under (Window Match).
+
+**Minimize animations:**
+
+- Click on the Desktop and then click (Settings).  The Settings Panel Will open, under the (Look) tab click (Ecomorph). The (Ecomorph Configuration) window will open. Click (Minimize animation) on the left. You will have four options from here, Window match, Animation duration, Animation for selected match, and Animation random pool. Click the only optin available under (Window Match). Make sure (Animation random pool) is completely unchecked. It is ok if (None) is checked. Next choose an animation from the (Animation for selected match) category. After you choose an animation click the (OK) button. Next, open the thunar file manager and then minimize it. You should see the animation you chose.
+
+
+### 3.) Switchers:
+
+
+
+### 4.) Desktop:
+
+
+
+
+### 5.) Effects:
+
+
 ## Transitions
 
 ## Scaling
