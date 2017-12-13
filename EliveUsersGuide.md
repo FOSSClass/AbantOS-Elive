@@ -627,11 +627,15 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
 
 When you first boot an Elive Linux Operating System or any Linux OS it will go through the following processes to boot into the command line or desktop. When you press the power button on a machine that is running Elive, the first program that runs in the BIOS. BIOS stands for Basic Input Output System. We must clarify about the BIOS before we go any further.  To be clear the BIOS is not part of the Linux kernel. The BIOS is separate of the operating system, it is not part of the OS. It can be found on computers running other operating systems such as Windows and others. The BIOS is a software that is built into a computer's ROM (Read Only Memory) at the time of manufacturing the motherboard. The BIOS goes through two main stages to boot a Linux kernel. It first does POST (Power On Self Test). In this first stage the BIOS checks to ensure that peripheral devices are intact and ready to operate the system after boot up. Peripheral devices are things like the keyboard, monitor, mouse, RAM, CPU and so on. Below is a screenshot of a BIOS.
 
+![bios](https://user-images.githubusercontent.com/26585912/33965743-b410efb4-e022-11e7-998d-6ea313aadbe0.PNG)
+
 *Figure 1.1 BIOS.*
 
 
 The next stage of the BIOS is that it looks for an MBR (Master Boot Record) on all the drives that are connected to the system. The BIOS has a boot menu which lists the boot order of all bootable devices that are available on a given system. Most BIOS by default are configured to check for the MBR on the first disk drive onboard. If there is no disk drive it'll check for a CD/DVD ROM or USB; which basically means it'll go through all the drives that are connected or onboard until it finds a drive with an MBR. Then it hands of the boot process to the drive that has the MBR. Another screenshot of the BIOS's boot menu.
 
+
+![bios2](https://user-images.githubusercontent.com/26585912/33965751-bab72dc4-e022-11e7-9e55-7d56624d57c3.PNG)
 
 *Figure 1.2 BIOS boot menu.*
 
@@ -639,8 +643,47 @@ The next stage of the BIOS is that it looks for an MBR (Master Boot Record) on a
 
 The MBR is the first sector of a disk drive; it holds a table of partitions on the disk drive. The MBR will look all the partitions on the drive to find one that has a boot loader. There are many common boot loaders but Elive linux uses GRUB two. Below is a screenshot of the GRUB two startup menu that is getting ready to boot up an Elive linux. 
 
-![](GRUB2.png)
+![grub2](https://user-images.githubusercontent.com/26585912/33965774-c7be93e0-e022-11e7-9b6e-3989717e64c3.png)
 *Figure 1.3 GRUB Boot Menu.*
+
+#### Section 1.2 Troublshoot Boot Process
+
+Sometimes during the boot process you can into a some issues such as hearing a beep and the system getting stuck on first boot page.  Usually you get an error message that gives you a hint as to what might be the problem or an error that tells you exactly what may the problem. If you hear a beep that is usually in indication that the BIOS is either not detecting a peripheral or it is not able to communicate with it. In this case, follow the error message and figure out what is wrong with that device.  For instance, if you have an error that points to keyboard not detected make sure all the cabling to the PC is properly plugged in and that you don't have any lose connections. BIOS errors are not a kernel issue, that is just physical hardware issues. 
+
+The next type of error you can run into is GRUB not finding an OS, this is a common error, this just means that when the BIOS handed off the boot process to the MBR which found GRUB, that specific disk drive does not have an OS installed on it or the installation is corrupt, the easiest solution is to reinstall the OS. But below are a few commands you can run to detect if you have a corrupt installation or of something else is going on. 
+
+From the GRUB initial Boot Menu, use the up/down arrow keys to interrupt the boot process, then press "e" to enter into the GRUB configuration mode.
+
+I have two linux OSs setup in dual boot but only one of them boots, the other one is not showing up in GRUB's menu. This is what to do when the system first boots. From the GRUB menu, enter "c" to go into grub command line configuration. Below is a screenshot of how that page looks like. Refer to the bottom of Figure 1.3 above to see the options.
+
+![grub2-2](https://user-images.githubusercontent.com/26585912/33965787-d0580d88-e022-11e7-8c7a-6173b153ec52.png)
+
+*Figure 1.4 Grub CLI*
+
+In this menu, some of the available commands are the "ls" command and its options as well. In the above case, it is a simple problem, the second OS which is Debian 7 doesn't have a boot option declared in the grub file. By adding that configuration in grub that will take care of the problem and next time you reboot, GRUB will list multiple OS to boot from; in our case ELive linux and Debian 7. 
+
+
+The command to change the system's hostname is **hostname** followed by whatever name you want to give it. You must be root to change the hostname or use the "sudo" option before the command. Running the **hostname** command by itself will return the current name of the system. 
+
+```
+root ~ >>> hostname
+Elive
+```
+To change it now do the following. 
+
+```  
+root ~ >>> hostname Debian
+root ~ >>> hostname
+Elive
+```
+Now, we changed the name but when we run the **hostname** command again it returns the old name. The reason is because this change is temporary on this shell. You must start another shell or login again to see the change.  Besides that, most changes on the shell will not survive a system reboot, therefore, If you want to change the system's hostname permanently you must modify the /etc/hostname file.
+
+```
+[aali@elive:~]$ sudo nano /etc/hostname
+```
+![hostname](https://user-images.githubusercontent.com/26585912/33965802-de5fe694-e022-11e7-89dc-b75f741aaf91.PNG)
+
+*Figure 2.1 /etc/hostname*
 
 
 
