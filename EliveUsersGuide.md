@@ -1067,7 +1067,7 @@ UUID=e70e3a87-88d4-4dea-af37-e140bd8db0d9  /mnt/OpenSuse ext4  defaults=rw,dev,e
 
 Now that we have the disk added to the **/etc/fstab**, I rebooted the system to test it and it is still mounted after the reboot. 
 
-#### Section 5 Networking and Configuration
+#### Section 5 Elive Networking and Configuration.
 
 An Elive linux machine must get internet access in order to get the latest bug fixes, security patches and upgrades. In this section we'll cover how to configure your system to get on the network and how to troubleshoot any network issues. We have already discussed how to setup a network interface for DHCP or how to manually configure it statically. Here we'll start with bringing up and interface and shutting it down. 
 
@@ -1192,7 +1192,7 @@ lo        Link encap:Local Loopback
 ```
 Now we're back to the first two interfaces that were up.  It is as simple as that to bring up and down interfaces in Elive linux. 
 
-#### Section 5.2 Network Connectivity
+#### Section 5.2 Network Connectivity.
 
 In this section we'll test a remote Elive system to see if it is up or down by using ping and traceroute. 
 
@@ -1901,14 +1901,15 @@ Processing triggers for menu ...
 We can use the apt-get and aptitude command interchangebly.  We can also install packages with the .deb extension using the **dpkg** command. 
 
 
-![](desktop.png)
+![desktop](https://user-images.githubusercontent.com/26585912/33965879-1ed03c2e-e023-11e7-94f4-0ec624b2f5c1.PNG)
 *Figure 9.1 dpkg.*
 
 The installation steps after running the command. 
-![](desktop2.png)
+
+![desktop2](https://user-images.githubusercontent.com/26585912/33965890-26af8c7e-e023-11e7-8827-e6104a066421.PNG)
 *Figure 9.2 dpkg*
 
-To remove the run the **dpkg -r ** option for remove and the package is removed.
+To remove run the **dpkg -r ** option for remove and the package is removed.
 
 
 #### Section 10 Scheduling and Automating Tasks.
@@ -1980,7 +1981,7 @@ Now we can run cron as follows.
 [aali@Elive:~]$ sudo crontab -e
 [sudo] password for aali:
 
-![](crontab.png)
+![crontab](https://user-images.githubusercontent.com/26585912/33965939-580385b4-e023-11e7-80ac-9947adff6581.PNG)
 *Figure 10.1 crontab*
 
 Once you're in cron configuration mode, you have the option of configuring a task to with the following five parameters. Minute, hour day of the month, month and day of the week then the command to run. In our case we configured our cron to run a system upgrade at 2am every Monday. 
@@ -2026,7 +2027,7 @@ vsftpd is running
 ```
 The vsftpd daemon has an anonymous account setup by default so we'll access that just for demo. 
 
-![](ftp.png)
+![ftp](https://user-images.githubusercontent.com/26585912/33965943-62a488c4-e023-11e7-8210-473f2493e6e5.PNG)
 *Figure 11.1 ftp.*
 
 ```
@@ -2051,7 +2052,7 @@ Next we started our http/web server by first starting apache2 service.
 
 ```
 [aali@Elive:~]$ sudo service apache2 start
-[....] Starting web server: apache2apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[....] Starting web server: apache2apache2: using 127.0.0.1 for ServerName
 httpd (pid 29714) already running
 . ok
 [aali@Elive:~]$
@@ -2062,7 +2063,7 @@ Apache2 is running (pid 29714).
 
 ```
 
-![](apache2.png)
+![apache2](https://user-images.githubusercontent.com/26585912/33965956-6f46aa26-e023-11e7-92f6-71d4c831af3b.PNG)
 *Figure 11.2 apache.*
 
 
