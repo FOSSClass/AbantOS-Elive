@@ -606,17 +606,18 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
 # Systems Administration & Configuration
 
     1. Boot process and Troubleshooting
-    2. System Logging
-    3. Disk Management and File System Creation
-    4. Managing Linux Users and Groups
-    5. Linux Networking (setting up networking and config)
-    6. Process and Job Management
-    7. Creating, Viewing and Editing Text Files (Vi)
-    8. Installing and Updating Software Packages
-    9. Scheduling and Automating Future tasks
-    10. Network Storage and Management (NFS, SMB)
-    11. Service Configuration (DHCP, FTP, DNS, SSH, HTTP etc...)    
-    12. Linux Shell Scripting
+    2. Basic System Configuration
+    3. System Logging
+    4. Disk Management and File System Creation
+    5. Managing Linux Users and Groups
+    6. Linux Networking (setting up networking and config)
+    7. Process and Job Management
+    8. Creating, Viewing and Editing Text Files (Vi)
+    9. Installing and Updating Software Packages
+    10. Scheduling and Automating Future tasks
+    11. Network Storage and Management (NFS, SMB)
+    12. Service Configuration (DHCP, FTP, DNS, SSH, HTTP etc...)    
+    
     Linux Boot Process and Troubleshooting
 
 ### Boot process and Troubleshooting
