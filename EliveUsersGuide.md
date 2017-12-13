@@ -2028,6 +2028,7 @@ vsftpd is running
 The vsftpd daemon has an anonymous account setup by default so we'll access that just for demo. 
 
 ![ftp](https://user-images.githubusercontent.com/26585912/33965943-62a488c4-e023-11e7-8210-473f2493e6e5.PNG)
+
 *Figure 11.1 ftp.*
 
 ```
