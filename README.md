@@ -1373,15 +1373,15 @@ Sending on   LPF/eth0/08:00:27:12:d8:f3
 Sending on   Socket/fallback
 DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
 DHCPREQUEST on eth0 to 255.255.255.255 port 67
-DHCPOFFER from 10.67.181.254
-DHCPACK from 10.67.181.254
+DHCPOFFER from 10.7.11.254
+DHCPACK from 10.7.11.254
 Reloading /etc/samba/smb.conf: smbd only.
 bound to 10.67.181.2 -- renewal in 1572 seconds.
 [aali@Elive:~]$
 [aali@Elive:~]$
 [aali@Elive:~]$ sudo ifconfig
 eth0      Link encap:Ethernet  HWaddr 08:00:27:12:d8:f3
-          inet addr:10.67.181.2  Bcast:10.67.181.255  Mask:255.255.255.0
+          inet addr:10.7.11.2  Bcast:10.67.181.255  Mask:255.255.255.0
           inet6 addr: fe80::a00:27ff:fe12:d8f3/64 Scope:Link
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
           RX packets:238 errors:0 dropped:0 overruns:0 frame:0
@@ -1424,7 +1424,7 @@ For info, please visit https://www.isc.org/software/dhcp/
 Listening on LPF/eth0/08:00:27:12:d8:f3
 Sending on   LPF/eth0/08:00:27:12:d8:f3
 Sending on   Socket/fallback
-DHCPRELEASE on eth0 to 10.82.64.70 port 67
+DHCPRELEASE on eth0 to 10.7.11.254 port 67
 Reloading /etc/samba/smb.conf: smbd only.
 [aali@Elive:~]$
 [aali@Elive:~]$ sudo ifconfig
@@ -1460,7 +1460,7 @@ In this section we'll test a remote Elive system to see if it is up or down by u
 ```
 C:\Users\IEUser>ping 10.7.11.2
 
-Pinging 10.7.18.2 with 32 bytes of data:
+Pinging 10.7.11.2 with 32 bytes of data:
 Reply from 10.7.11.171: Destination host unreachable.
 Reply from 10.7.11.171: Destination host unreachable.
 Reply from 10.7.11.171: Destination host unreachable.
