@@ -896,7 +896,7 @@ The next stage of the BIOS is that it looks for an MBR (Master Boot Record) on a
 
 
 
-The MBR is the first sector of a disk drive; it holds a table of partitions on the disk drive. The MBR will look all the partitions on the drive to find one that has a boot loader. There are many common boot loaders but Elive linux uses GRUB two. Below is a screenshot of the GRUB two startup menu that is getting ready to boot up an Elive linux. 
+The MBR is the first sector of a disk drive; it holds a table of partitions on the disk drive. The MBR will look all the partitions on the drive to find one that has a boot loader. There are many common boot loaders but Elive linux uses GRUB two. Below is a screenshot of the GRUB two startup menu that is getting ready to boot up an Elive linux.
 
 ![grub2](https://user-images.githubusercontent.com/26585912/33965774-c7be93e0-e022-11e7-9b6e-3989717e64c3.png)
 *Figure 1.3 GRUB Boot Menu*
