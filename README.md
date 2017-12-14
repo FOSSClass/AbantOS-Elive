@@ -880,7 +880,7 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
 * Scheduling and Automating Future Tasks.
 * Service/Server Configuration (DHCP, FTP, DNS, SSH and HTTP).
 
-#### Section 1.1 Boot Process
+#### Section 1 Boot Process
 
 When you first boot an Elive Linux Operating System or any Linux OS it will go through the following processes to boot into the command line or desktop. When you press the power button on a machine that is running Elive, the first program that runs in the BIOS. BIOS stands for Basic Input Output System. We must clarify about the BIOS before we go any further.  To be clear the BIOS is not part of the Linux kernel. The BIOS is separate of the operating system, it is not part of the OS. It can be found on computers running other operating systems such as Windows and others. The BIOS is a software that is built into a computer's ROM (Read Only Memory) at the time of manufacturing the motherboard. The BIOS goes through two main stages to boot a Linux kernel. It first does POST (Power On Self Test). In this first stage the BIOS checks to ensure that peripheral devices are intact and ready to operate the system after boot up. Peripheral devices are things like the keyboard, monitor, mouse, RAM, CPU and so on. Below is a screenshot of a BIOS.
 
@@ -903,7 +903,7 @@ The MBR is the first sector of a disk drive; it holds a table of partitions on t
 ![grub2](https://user-images.githubusercontent.com/26585912/33965774-c7be93e0-e022-11e7-9b6e-3989717e64c3.png)
 *Figure 1.3 GRUB Boot Menu.*
 
-#### Section 1.2 Troublshoot Boot Process
+#### Section 1.1 Troublshoot Boot Process
 
 Sometimes during the boot process you can into a some issues such as hearing a beep and the system getting stuck on first boot page.  Usually you get an error message that gives you a hint as to what might be the problem or an error that tells you exactly what may the problem. If you hear a beep that is usually in indication that the BIOS is either not detecting a peripheral or it is not able to communicate with it. In this case, follow the error message and figure out what is wrong with that device.  For instance, if you have an error that points to keyboard not detected make sure all the cabling to the PC is properly plugged in and that you don't have any lose connections. BIOS errors are not a kernel issue, that is just physical hardware issues. 
 
@@ -918,6 +918,9 @@ I have two linux OSs setup in dual boot but only one of them boots, the other on
 
 In this menu, some of the available commands are the "ls" command and its options as well. In the above case, it is a simple problem, the second OS which is Debian 7 doesn't have a boot option declared in the grub file. By adding that configuration in grub that will take care of the problem and next time you reboot, GRUB will list multiple OS to boot from; in our case ELive linux and Debian 7. 
 
+#### Section 2.1 Basic System Configuration.
+
+Once an Elive Linux is up and running for the first time one must perform a couple of house keeping. We will first configure the system with a hostname, and configure networking for network access so you can download the latest updates and security patches.
 
 The command to change the system's hostname is **hostname** followed by whatever name you want to give it. You must be root to change the hostname or use the "sudo" option before the command. Running the **hostname** command by itself will return the current name of the system. 
 
