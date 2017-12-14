@@ -885,21 +885,21 @@ echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt
 When you first boot an Elive Linux Operating System or any Linux OS it will go through the following processes to boot into the command line or desktop. When you press the power button on a machine that is running Elive, the first program that runs in the BIOS. BIOS stands for Basic Input Output System. We must clarify about the BIOS before we go any further.  To be clear the BIOS is not part of the Linux kernel. The BIOS is separate of the operating system, it is not part of the OS. It can be found on computers running other operating systems such as Windows and others. The BIOS is a software that is built into a computer's ROM (Read Only Memory) at the time of manufacturing the motherboard. The BIOS goes through two main stages to boot a Linux kernel. It first does POST (Power On Self Test). In this first stage the BIOS checks to ensure that peripheral devices are intact and ready to operate the system after boot up. Peripheral devices are things like the keyboard, monitor, mouse, RAM, CPU and so on. Below is a screenshot of a BIOS.
 
 ![bios](https://user-images.githubusercontent.com/26585912/33965743-b410efb4-e022-11e7-998d-6ea313aadbe0.PNG)
-*Figure 1.1 BIOS.*
+*Figure 1.1 BIOS*
 
 
 The next stage of the BIOS is that it looks for an MBR (Master Boot Record) on all the drives that are connected to the system. The BIOS has a boot menu which lists the boot order of all bootable devices that are available on a given system. Most BIOS by default are configured to check for the MBR on the first disk drive onboard. If there is no disk drive it'll check for a CD/DVD ROM or USB; which basically means it'll go through all the drives that are connected or onboard until it finds a drive with an MBR. Then it hands of the boot process to the drive that has the MBR. Another screenshot of the BIOS's boot menu.
 
 
 ![bios2](https://user-images.githubusercontent.com/26585912/33965751-bab72dc4-e022-11e7-9e55-7d56624d57c3.PNG)
-*Figure 1.2 BIOS boot menu.*
+*Figure 1.2 BIOS boot menu*
 
 
 
 The MBR is the first sector of a disk drive; it holds a table of partitions on the disk drive. The MBR will look all the partitions on the drive to find one that has a boot loader. There are many common boot loaders but Elive linux uses GRUB two. Below is a screenshot of the GRUB two startup menu that is getting ready to boot up an Elive linux. 
 
 ![grub2](https://user-images.githubusercontent.com/26585912/33965774-c7be93e0-e022-11e7-9b6e-3989717e64c3.png)
-*Figure 1.3 GRUB Boot Menu.*
+*Figure 1.3 GRUB Boot Menu*
 
 #### Section 1.1 Troublshoot Boot Process
 
@@ -916,7 +916,7 @@ I have two linux OSs setup in dual boot but only one of them boots, the other on
 
 In this menu, some of the available commands are the "ls" command and its options as well. In the above case, it is a simple problem, the second OS which is Debian 7 doesn't have a boot option declared in the grub file. By adding that configuration in grub that will take care of the problem and next time you reboot, GRUB will list multiple OS to boot from; in our case ELive linux and Debian 7. 
 
-#### Section 2.1 Basic System Configuration.
+#### Section 2 Basic System Configuration
 
 Once an Elive Linux is up and running for the first time one must perform a couple of house keeping. We will first configure the system with a hostname, and configure networking for network access so you can download the latest updates and security patches.
 
@@ -1018,12 +1018,12 @@ iface eth0 inet dhcp
 Now we're going to go in with nano or vi and modify that default configuration. All we need to do is change the dhcp option to static and define three things; an IP address, subnet mask and a default gateway. 
 
 ![interface](https://user-images.githubusercontent.com/26585912/33965817-ec71d648-e022-11e7-98de-92c4549d8a4e.PNG)
-*Figure 2.2 Interface Configuration.*
+*Figure 2.2 Interface Configuration*
 
 Here is what it looks like after the changes. At this point we have configured a static IP on this machine, now all we need to do is save the file and reboot the machine. 
 
 ![interface2](https://user-images.githubusercontent.com/26585912/33965831-f724f3ea-e022-11e7-8e5f-86df4488be1b.PNG)
-*Figure 2.3 Interface Configuration.*
+*Figure 2.3 Interface Configuration*
 
 ```
 alias apug='sudo apt-get update ; sudo apt-get upgrade'
