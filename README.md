@@ -1379,12 +1379,12 @@ DHCPREQUEST on eth0 to 255.255.255.255 port 67
 DHCPOFFER from 10.7.11.254
 DHCPACK from 10.7.11.254
 Reloading /etc/samba/smb.conf: smbd only.
-bound to 10.67.181.2 -- renewal in 1572 seconds.
+bound to 10.7.11.2 -- renewal in 1572 seconds.
 [aali@Elive:~]$
 [aali@Elive:~]$
 [aali@Elive:~]$ sudo ifconfig
 eth0      Link encap:Ethernet  HWaddr 08:00:27:12:d8:f3
-          inet addr:10.7.11.2  Bcast:10.67.181.255  Mask:255.255.255.0
+          inet addr:10.7.11.2  Bcast:10.7.11.255  Mask:255.255.255.0
           inet6 addr: fe80::a00:27ff:fe12:d8f3/64 Scope:Link
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
           RX packets:238 errors:0 dropped:0 overruns:0 frame:0
@@ -1498,7 +1498,7 @@ Traceroute shows that another device, likely the gateway of the Elive host is dr
 
 C:\Users\IEUser>ping 10.7.11.2
 
-Pinging 10.67.181.2 with 32 bytes of data:
+Pinging 10.7.11.2 with 32 bytes of data:
 Reply from 10.7.11.2: bytes=32 time<1ms TTL=63
 Reply from 10.7.11.2: bytes=32 time=1ms TTL=63
 Reply from 10.7.11.2: bytes=32 time=1ms TTL=63
