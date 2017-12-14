@@ -2528,6 +2528,10 @@ USB Booting (Mac)
 
 QA: Debian Package Management Workflow
 
+### Brandon Burke
+
+Graphics & Theme
+
 ## Editors
 
 ### Kautz, D.E.
